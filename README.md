@@ -1,53 +1,41 @@
-# Mobile Demand Prediction - Data Scraping Module
+# Mobile Price Scraper
 
-## Setup Instructions
+Simple web scraper for collecting mobile phone data from Flipkart.
 
-### 1. Install Dependencies
+## Installation
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run the Scraper
+## Usage
+
+Run the main script:
 ```bash
-python scrape_mobiles.py
+python main.py
 ```
 
-## Usage Options
+Choose option:
+- **1**: Scrape products (saves to `mobile_data.csv`)
+- **2**: View saved data
 
-### Option 1: Scrape Specific Products
-1. Run the script
-2. Choose option `1`
-3. Paste Flipkart product URLs (one per line)
-4. Press Enter twice to start scraping
+## Features
 
-### Option 2: Scrape from Category Page
-1. Run the script
-2. Choose option `2`
-3. Paste category page URL (e.g., https://www.flipkart.com/mobiles/pr?sid=tyy,4io)
-4. Specify number of products to scrape
-5. Script will automatically extract and scrape products
+- Scrapes product name, price, ratings
+- Extracts specs: RAM, storage, battery, camera
+- Saves data to CSV for analysis
+- Clean, readable code
 
 ## Data Collected
 
-The scraper collects the following attributes:
-- **Basic Info**: Product name, brand, URL
-- **Pricing**: Current price, original price, discount percentage
-- **Ratings**: Rating, total reviews, total ratings
-- **Specifications**: RAM, storage, battery, camera, processor, screen size, 5G support
-- **Availability**: Stock status, delivery days, offers count
-- **Trends**: Trending/bestseller tags
-- **Timestamp**: Date of scraping
+- Brand, name, price, discount
+- Rating and total ratings
+- RAM, storage, battery
+- Camera, processor, 5G support
 
-## Output
+## Customization
 
-Data is saved to `mobile_data.csv` in the same directory.
-
-## Tips for Best Results
-
-1. **Rate Limiting**: Script includes 2-second delays between requests to avoid blocking
-2. **Multiple Runs**: Run the script daily/weekly to collect time-series data
-3. **Verify URLs**: Make sure URLs are valid Flipkart product pages
-4. **Check CSV**: After scraping, verify data quality in the CSV file
+Edit `PRODUCT_URLS` in `main.py` to scrape different products.
 
 ## Next Steps
 
