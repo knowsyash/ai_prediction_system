@@ -119,7 +119,7 @@ class MobileScraper:
                     if m := re.search(pattern, text, re.IGNORECASE):
                         specs['processor'] = m.group(1)
                         break
-            
+                        
             p['ram'] = self.find_spec(specs, ['ram', 'memory'])
             p['storage'] = self.find_spec(specs, ['storage', 'rom', 'internal'])
             p['battery'] = self.find_spec(specs, ['battery', 'battery capacity'])
