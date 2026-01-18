@@ -10,10 +10,11 @@ import time
 from datetime import datetime
 import re
 import random
+import os
 
 
 class FlipkartReviewScraper:
-    def __init__(self):
+    def __init__(self, csv_filename='data_scrapping/iphone15_reviews.csv', progress_file='data_scrapping/scraper_progress.txt'):
         self.user_agents = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
@@ -23,6 +24,9 @@ class FlipkartReviewScraper:
         ]
         self.reviews = []
         self.session = requests.Session()
+        self.csv_filename = csv_filename
+        self.progress_file = progress_file
+        self.total_scraped = 0
     
     def get_headers(self):
         """Get random headers to avoid detection"""
@@ -35,6 +39,42 @@ class FlipkartReviewScraper:
             'Upgrade-Insecure-Requests': '1',
             'Cache-Control': 'max-age=0',
         }
+    
+    def get_current_progress(self):
+        """Check CSV file and return current row count and start page"""
+        if os.path.exists(self.csv_filename):
+            try:
+                df = pd.read_csv(self.csv_filename)
+                row_count = len(df)
+                # Flipkart typically shows 8-10 reviews per page, be conservative
+                # Go back 10 pages to ensure we don't miss any reviews
+                start_page = max(1, (row_count // 10) - 10)
+                return row_count, start_page
+            except Exception as e:
+                print(f"Warning: Could not read existing CSV: {e}")
+                return 0, 1
+        return 0, 1
+    
+    def save_progress(self, current_page, total_reviews, status='Running'):
+        """Save current progress to txt file"""
+        try:
+            timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            progress_info = f"""
+{'='*60}
+SCRAPER PROGRESS REPORT
+{'='*60}
+Status: {status}
+Last Updated: {timestamp}
+Current Page: {current_page}
+Total Reviews Scraped: {total_reviews}
+CSV File: {self.csv_filename}
+{'='*60}
+"""
+            with open(self.progress_file, 'w', encoding='utf-8') as f:
+                f.write(progress_info)
+            print(f"✓ Progress saved to {self.progress_file}")
+        except Exception as e:
+            print(f"Warning: Could not save progress: {e}")
     
     def parse_review_page(self, soup):
         """Parse reviews from a single page"""
@@ -132,19 +172,25 @@ class FlipkartReviewScraper:
         return page_reviews
     
     def scrape_all_reviews(self, base_url, total_pages=947, start_page=1):
-        """
-        Scrape all reviews from all pages
+        """Scrape reviews from multiple pages with auto-resume"""
+        # Check current progress first
+        existing_rows, calculated_start = self.get_current_progress()
+        if existing_rows > 0:
+            print(f"\n✓ Found existing data: {existing_rows} reviews")
+            print(f"✓ Calculated start page (with 10-page buffer): {calculated_start}")
+            # Use the higher of provided start_page or calculated
+            start_page = max(start_page, calculated_start)
         
-        Args:
-            base_url: Base URL of the product reviews page
-            total_pages: Total number of pages to scrape (default 947)
-            start_page: Starting page number (default 1)
-        """
-        print(f"Starting to scrape {total_pages} pages of reviews...")
-        print("This may take a while. Please be patient.\n")
+        print(f"\nStarting scrape from page {start_page} to {total_pages}...")
+        print(f"Target: ~{(total_pages - start_page + 1) * 10} reviews\n")
+        print(f"Note: Going back 10 pages from calculated position to ensure no reviews are missed\n")
+        
+        # Save initial progress
+        self.save_progress(start_page, existing_rows, 'Started')
+        self.total_scraped = existing_rows  # Initialize with existing count
         
         consecutive_empty_pages = 0
-        max_empty_pages = 7
+        max_empty_pages = 20  # Increased to 20 to handle gaps
         
         for page_num in range(start_page, total_pages + 1):
             try:
@@ -158,7 +204,7 @@ class FlipkartReviewScraper:
                     else:
                         url = f"{base_url}?page={page_num}"
                 
-                print(f"Scraping page {page_num}/{total_pages}...", end=' ')
+                print(f"[Page {page_num}/{total_pages}] Fetching reviews...", end=' ')
                 
                 # Random delay between 4-7 seconds to avoid detection
                 time.sleep(random.uniform(4, 7))
@@ -175,21 +221,32 @@ class FlipkartReviewScraper:
                 
                 if page_reviews:
                     self.reviews.extend(page_reviews)
-                    print(f"✓ Found {len(page_reviews)} reviews (Total: {len(self.reviews)})")
-                    consecutive_empty_pages = 0  # Reset counter
+                    self.total_scraped += len(page_reviews)  # Add to running total
+                    print(f"✓ Found {len(page_reviews)} reviews (Session: {len(self.reviews)}, Total: {self.total_scraped})")
+                    consecutive_empty_pages = 0
+                    
+                    # Save progress every 10 pages
+                    if page_num % 10 == 0:
+                        self.save_progress(page_num, self.total_scraped, 'Running')
+                        # Auto-save to CSV every 10 pages
+                        self.save_to_csv(self.csv_filename)
+                        print(f"\n📊 Progress checkpoint saved - Page {page_num}\n")
+                    # Update progress every 5 pages (without full save)
+                    elif page_num % 5 == 0:
+                        self.save_progress(page_num, self.total_scraped, 'Running')
                 else:
                     print("⚠ No reviews found on this page")
                     consecutive_empty_pages += 1
                     
                     # Stop if 7 consecutive empty pages
                     if consecutive_empty_pages >= max_empty_pages:
-                        print(f"\n⚠ Stopped: {max_empty_pages} consecutive pages with no reviews found")
-                        print("This likely means we've reached the end or are being blocked.\n")
+                        print(f"\n⚠ Stopped: {max_empty_pages} consecutive pages with no reviews")
+                        self.save_progress(page_num, self.total_scraped, 'Stopped - No more reviews')
                         break
                 
                 # Save progress every 5 pages to same file
                 if page_num % 5 == 0:
-                    self.save_to_csv('reviews_in_progress.csv')
+                    self.save_to_csv('data_scrapping/reviews_in_progress.csv')
                     self.reviews = []  # Clear to avoid duplicates
                     print(f"\n📊 Progress saved\n")
                 
@@ -207,13 +264,14 @@ class FlipkartReviewScraper:
                     time.sleep(10)
                 # Try again
                 try:
-                    response = self.session.get(url, headers=self.headers, timeout=15)
+                    response = self.session.get(url, headers=self.get_headers(), timeout=15)
                     response.raise_for_status()
                     soup = BeautifulSoup(response.content, 'html.parser')
                     page_reviews = self.parse_review_page(soup)
                     if page_reviews:
                         self.reviews.extend(page_reviews)
-                        print(f"✓ Retry successful! Found {len(page_reviews)} reviews (Total: {len(self.reviews)})")
+                        self.total_scraped = existing_rows + len(self.reviews)
+                        print(f"✓ Retry successful! Found {len(page_reviews)} reviews (Session: {len(self.reviews)}, Total: {self.total_scraped})")
                     time.sleep(5)
                 except:
                     print(f"Retry failed. Skipping page {page_num}")
@@ -225,8 +283,12 @@ class FlipkartReviewScraper:
         
         print(f"\n{'='*60}")
         print(f"Scraping completed!")
-        print(f"Total reviews collected: {len(self.reviews)}")
+        print(f"Session reviews: {len(self.reviews)}")
+        print(f"Total reviews in CSV: {self.total_scraped}")
         print(f"{'='*60}\n")
+        
+        # Save final progress
+        self.save_progress(total_pages, self.total_scraped, 'Completed')
         
         return self.reviews
     
@@ -286,27 +348,50 @@ def main():
     url = "https://www.flipkart.com/apple-iphone-15-black-128-gb/product-reviews/itm6ac6485515ae4?pid=MOBGTAGPTB3VS24W&lid=LSTMOBGTAGPTB3VS24WKFODHL&marketplace=FLIPKART"
     
     print("="*60)
-    print("FLIPKART REVIEW SCRAPER")
+    print("FLIPKART REVIEW SCRAPER - AUTO RESUME")
     print("="*60)
     print(f"Product: Apple iPhone 15 (Black, 128 GB)")
-    print(f"Starting from page 91")
     print("="*60)
     print()
     
-    # Create scraper instance
-    scraper = FlipkartReviewScraper()
+    # Create scraper instance with auto-resume capability
+    scraper = FlipkartReviewScraper(
+        csv_filename='data_scrapping/reviews_in_progress.csv',
+        progress_file='data_scrapping/scraper_progress.txt'
+    )
     
-    # Scrape from page 91 onwards
-    scraper.scrape_all_reviews(url, total_pages=947, start_page=91)
+    # Check existing progress
+    existing_rows, auto_start_page = scraper.get_current_progress()
+    print(f"✓ Auto-detected: {existing_rows} existing reviews")
+    print(f"✓ Will start from page: {auto_start_page}")
+    print()
     
-    # Save to CSV
-    df = scraper.save_to_csv('iphone15_reviews.csv')
-    
-    # Show statistics
-    scraper.get_statistics()
-    
-    print("\n✓ Scraping complete! Ready for sentiment analysis.")
-    print(f"✓ Data saved to: iphone15_reviews.csv")
+    try:
+        # Scrape with auto-resume (will automatically continue from where it left off)
+        scraper.scrape_all_reviews(url, total_pages=947, start_page=auto_start_page)
+        
+        # Save to CSV
+        df = scraper.save_to_csv('data_scrapping/reviews_in_progress.csv')
+        
+        # Show statistics
+        scraper.get_statistics()
+        
+        print("\n✓ Scraping complete! Ready for sentiment analysis.")
+        print(f"✓ Data saved to: data_scrapping/reviews_in_progress.csv")
+        print(f"✓ Progress log: data_scrapping/scraper_progress.txt")
+        
+    except KeyboardInterrupt:
+        print("\n\n⚠ Scraping interrupted by user!")
+        print("Saving progress...")
+        scraper.save_to_csv('data_scrapping/reviews_in_progress.csv')
+        scraper.save_progress(0, scraper.total_scraped, 'Interrupted')
+        print("✓ Progress saved. Run again to resume from where you left off.")
+    except Exception as e:
+        print(f"\n\n✗ Error occurred: {e}")
+        print("Saving progress...")
+        scraper.save_to_csv('data_scrapping/reviews_in_progress.csv')
+        scraper.save_progress(0, scraper.total_scraped, 'Error')
+        print("✓ Progress saved. Run again to resume.")
 
 
 if __name__ == "__main__":
