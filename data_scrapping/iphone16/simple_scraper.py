@@ -9,7 +9,7 @@ import re
 from datetime import datetime
 
 class SimpleFlipkartScraper:
-    CSV_FILENAME = 'iphone15_reviews.csv'
+    CSV_FILENAME = 'iphone16_reviews.csv'
     
     USER_AGENTS = [
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -37,6 +37,118 @@ class SimpleFlipkartScraper:
         except:
             return 0
     
+    def _get_last_successful_page(self):
+        """Read the last successful page from progress file"""
+        try:
+            with open(self.progress_file, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+                # Search for last successful page from bottom up
+                for line in reversed(lines):
+                    if 'Page' in line and 'Found' in line and 'reviews' in line:
+                        # Extract page number from log like "Page 12: Found 8 reviews"
+                        match = re.search(r'Page (\d+):', line)
+                        if match:
+                            return int(match.group(1))
+            return 0
+        except:
+            return 0
+    
+    def _calculate_resume_page(self, last_page):
+        """Calculate resume page: nearest previous number divisible by 5, then +1"""
+        if last_page == 0:
+            return 1
+        # Find nearest previous number divisible by 5
+        nearest_divisible_by_5 = (last_page // 5) * 5
+        # Start from next page after that checkpoint
+        return nearest_divisible_by_5 + 1
+    
+    def _extract_and_format_date(self, text):
+        """Extract date from text - handles both relative dates and actual dates like 'Oct, 2024'"""
+        from datetime import datetime
+        from dateutil.relativedelta import relativedelta
+        
+        # First, check for actual date format like "Oct, 2024" or "Jan 2025"
+        actual_date_pattern = re.search(r'(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[,\s]+(\d{4})', text, re.IGNORECASE)
+        if actual_date_pattern:
+            month_str = actual_date_pattern.group(1)
+            year_str = actual_date_pattern.group(2)
+            return f"{month_str} {year_str}"
+        
+        # Look for relative date patterns like "3 months ago", "2 weeks ago"
+        month_pattern = re.search(r'(\d+)\s*months?\s*ago', text, re.IGNORECASE)
+        week_pattern = re.search(r'(\d+)\s*weeks?\s*ago', text, re.IGNORECASE)
+        day_pattern = re.search(r'(\d+)\s*days?\s*ago', text, re.IGNORECASE)
+        year_pattern = re.search(r'(\d+)\s*years?\s*ago', text, re.IGNORECASE)
+        
+        current_date = datetime.now()
+        review_date = None
+        
+        if year_pattern:
+            years = int(year_pattern.group(1))
+            review_date = current_date - relativedelta(years=years)
+        elif month_pattern:
+            months = int(month_pattern.group(1))
+            review_date = current_date - relativedelta(months=months)
+        elif week_pattern:
+            weeks = int(week_pattern.group(1))
+            review_date = current_date - relativedelta(weeks=weeks)
+        elif day_pattern:
+            days = int(day_pattern.group(1))
+            review_date = current_date - relativedelta(days=days)
+        
+        if review_date:
+            # Format as "Jan 2026" or "Nov 2025" (month and year only)
+            return review_date.strftime('%b %Y')
+        
+        return None
+    
+    def _extract_city(self, text):
+        """Extract city name from text - handles all Flipkart patterns"""
+        # Remove phone numbers first
+        text = re.sub(r'\d{10,}', '', text)
+        
+        # Pattern 1: ", City/District/Division" at the end (most common)
+        # Matches: "text , Palakkad District", "text , Kochi", "text , New Delhi"
+        city_match = re.search(r',\s*([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*(?:\s+(?:District|Division|City))?)[\s,]*$', text)
+        if not city_match:
+            # Pattern 2: ", City" before date
+            city_match = re.search(r',\s*([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*(?:\s+(?:District|Division|City))?)\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)', text, re.IGNORECASE)
+        if not city_match:
+            # Pattern 3: ", City" anywhere in middle/end
+            city_match = re.search(r',\s*([A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,3}(?:\s+(?:District|Division|City))?)', text)
+        
+        if city_match:
+            potential_city = city_match.group(1).strip()
+            
+            # Remove dates if present
+            potential_city = re.sub(r'\s*(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec).*$', '', potential_city, flags=re.IGNORECASE).strip()
+            
+            # Filter noise words
+            noise = ['Certified', 'Buyer', 'Verified', 'Purchase', 'READ', 'MORE', 
+                    'Report', 'Abuse', 'Helpful', 'Permalink', 'Storage', 'Color',
+                    'Customer', 'Flipkart', 'Review', 'Rating', 'Seller']
+            
+            if (potential_city and len(potential_city) > 2 and 
+                not any(n.lower() in potential_city.lower() for n in noise)):
+                return potential_city
+        
+        return None
+    
+    def _get_existing_review_keys(self):
+        """Get unique keys of existing reviews to prevent duplicates"""
+        try:
+            df = pd.read_csv(self.CSV_FILENAME)
+            keys = set()
+            for _, row in df.iterrows():
+                rating = str(row['rating'])
+                title = str(row['title'])[:30]
+                review_text = str(row['review_text'])[:30]
+                key = f"{rating}_{title}_{review_text}"
+                keys.add(key)
+            return keys
+        except:
+            return set()
+    
     def _get_headers(self):
         """Rotate user agents to avoid blocking"""
         self.current_ua_index = (self.current_ua_index + 1) % len(self.USER_AGENTS)
@@ -55,14 +167,51 @@ class SimpleFlipkartScraper:
         with open(self.progress_file, 'a', encoding='utf-8') as f:
             f.write(f"[{timestamp}] {message}\n")
         
-    def clean_text(self, text):
-        """Remove emojis, extra spaces, and noise from text"""
+    def clean_text(self, text, remove_dates=True):
+        """Remove emojis, extra spaces, noise, names, phone numbers and locations from text"""
         # Remove emojis and non-ASCII characters
         text = re.sub(r'[^\x00-\x7F]+', ' ', text)
         # Remove multiple spaces
         text = re.sub(r'\s+', ' ', text)
         # Remove special characters but keep basic punctuation
         text = re.sub(r'[^\w\s.,!?-]', '', text)
+        
+        # Remove phone numbers (10+ digits)
+        text = re.sub(r'\b\d{10,}\b', '', text)
+        
+        # Remove actual dates like "Oct, 2024" or "Jan 2025"
+        text = re.sub(r'(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[,\s]+\d{4}', '', text, flags=re.IGNORECASE)
+        
+        # Remove time/date patterns
+        if remove_dates:
+            text = re.sub(r'\d+\s*(month|months|week|weeks|day|days|year|years|hour|hours)\s*ago', '', text, flags=re.IGNORECASE)
+        
+        # AGGRESSIVE NAME REMOVAL - Multiple passes for all name patterns
+        
+        # 1. Remove "FirstName LastName , City/District" patterns
+        text = re.sub(r'[A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,3}\s*,\s*[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*(?:\s+(?:District|Division|City))?', '', text)
+        
+        # 2. Remove "FirstName LastName" anywhere (2-3 capitalized words in sequence)
+        text = re.sub(r'\b[A-Z][a-z]+\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?\b', '', text)
+        
+        # 3. Remove single capitalized names at end of sentences
+        text = re.sub(r'\b[A-Z][A-Z]+(?:\s+[A-Z]+)*\b', '', text)  # ALL CAPS names
+        
+        # 4. Remove ", City" patterns at the end
+        text = re.sub(r',\s*[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*(?:\s+(?:District|Division|City))?\s*$', '', text)
+        
+        # 5. Remove common prefixes
+        text = re.sub(r'\b(by|reviewed by|posted by|from)\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*', '', text, flags=re.IGNORECASE)
+        
+        # 6. Remove "Flipkart Customer" and similar
+        text = re.sub(r'Flipkart\s+Customer', '', text, flags=re.IGNORECASE)
+        
+        # Clean up artifacts
+        text = re.sub(r'\s*,\s*,\s*', ', ', text)  # Double commas
+        text = re.sub(r',\s*$', '', text)  # Trailing commas
+        text = re.sub(r'^\s*,', '', text)  # Leading commas
+        text = re.sub(r'\s+', ' ', text)  # Multiple spaces
+        
         return text.strip()
     
     def scrape_page(self, url):
@@ -78,6 +227,9 @@ class SimpleFlipkartScraper:
                 
                 page_reviews = []
                 seen_reviews = set()
+                
+                # Load existing reviews to prevent duplicates
+                existing_review_keys = self._get_existing_review_keys()
                 
                 # Find all divs and look for individual review patterns
                 all_divs = soup.find_all('div')
@@ -109,32 +261,58 @@ class SimpleFlipkartScraper:
                             
                             noise_keywords = ['Certified Buyer', 'Verified Purchase', 'Report Abuse', 
                                             'Permalink', 'Helpful', 'READ MORE', 'Review for Color',
-                                            'Storage', 'ratings and', 'reviews']
+                                            'Storage', 'ratings and', 'reviews', 'Flipkart Customer',
+                                            'by', 'reviewed', 'writes', 'says', 'posted', 'ago',
+                                            'month', 'months', 'week', 'weeks', 'day', 'days', 'year', 'years']
                             
                             for i, line in enumerate(lines[1:], 1):
                                 has_noise = any(kw in line for kw in noise_keywords)
-                                if not has_noise and len(line) > 5:
+                                # Skip lines with time patterns (e.g., "3 months ago")
+                                has_time_pattern = re.search(r'\d+\s*(month|week|day|year|hour)s?\s*ago', line, re.IGNORECASE)
+                                
+                                if not has_noise and not has_time_pattern and len(line) > 5:
                                     if i == 1 or (not title_candidates and len(line) < 100):
                                         title_candidates.append(line)
                                     else:
                                         review_candidates.append(line)
                             
                             if title_candidates and review_candidates:
-                                title = self.clean_text(title_candidates[0])
-                                review_text = self.clean_text(' '.join(review_candidates))
+                                # Join all review content for extraction
+                                full_text = ' '.join(lines)
+                                review_content = ' '.join(review_candidates)
                                 
-                                # Validate
+                                # Extract city and date BEFORE cleaning (from full text)
+                                city = self._extract_city(full_text)
+                                review_date = self._extract_and_format_date(full_text)
+                                
+                                # Clean text (now remove dates and cities after extraction)
+                                title = self.clean_text(title_candidates[0], remove_dates=True)
+                                review_text = self.clean_text(review_content, remove_dates=True)
+                                
+                                # Check for personal names or identifiers in text
+                                name_indicators = ['flipkart customer', 'certified buyer', 'by ', 'reviewed by']
+                                has_name_indicator = any(indicator in title.lower() or indicator in review_text.lower() 
+                                                        for indicator in name_indicators)
+                                
+                                # Check if title is a person name (2+ capitalized words)
+                                is_person_name_title = bool(re.match(r'^[A-Z][a-z]+\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?$', title))
+                                
+                                # Validate - reject if contains name indicators or title is a name
                                 if (3 < len(title) < 150 and
                                     15 < len(review_text) < 1000 and
-                                    not title.replace(' ', '').replace(',', '').isdigit()):
+                                    not title.replace(' ', '').replace(',', '').isdigit() and
+                                    not has_name_indicator and
+                                    not is_person_name_title):
                                     
                                     review_key = f"{rating}_{title[:30]}_{review_text[:30]}"
-                                    if review_key not in seen_reviews:
+                                    if review_key not in seen_reviews and review_key not in existing_review_keys:
                                         seen_reviews.add(review_key)
                                         page_reviews.append({
                                             'rating': int(rating),
                                             'title': title,
-                                            'review_text': review_text
+                                            'review_text': review_text,
+                                            'date': review_date if review_date else 'N/A',
+                                            'city': city if city else 'N/A'
                                         })
                 
                 return page_reviews
@@ -217,7 +395,7 @@ class SimpleFlipkartScraper:
                 print(f"\n📊 Progress saved at page {page}. Total in file: {saved_count}\n")
             
             # Be polite to the server - longer delays to avoid blocking
-            delay = random.uniform(5, 10)
+            delay = random.uniform(10, 15)  # Increased from 5-10 to 10-15 seconds
             time.sleep(delay)
         
         # Final save
@@ -251,7 +429,7 @@ class SimpleFlipkartScraper:
             try:
                 existing_df = pd.read_csv(filename)
             except (FileNotFoundError, pd.errors.EmptyDataError):
-                existing_df = pd.DataFrame(columns=['rating', 'title', 'review_text'])
+                existing_df = pd.DataFrame(columns=['rating', 'title', 'review_text', 'date', 'city'])
             
             # Append new reviews
             new_df = pd.DataFrame(self.reviews)
@@ -272,19 +450,30 @@ class SimpleFlipkartScraper:
             return self.total_in_file
 
 def main():
-    url = "https://www.flipkart.com/apple-iphone-15-black-128-gb/product-reviews/itm6ac6485515ae4?pid=MOBGTAGPTB3VS24W&lid=LSTMOBGTAGPTB3VS24WKFODHL&marketplace=FLIPKART"
+    url = "https://www.flipkart.com/apple-iphone-16-black-128-gb/product-reviews/itmb07d67f995271?pid=MOBH4DQFG8NKFRDY&lid=LSTMOBH4DQFG8NKFRDYKOOGZ6&marketplace=FLIPKART"
     
     print("="*60)
     print("SIMPLE FLIPKART REVIEW SCRAPER")
     print("="*60)
-    print("Product: Apple iPhone 15 (Black, 128 GB)\n")
+    print("Product: Apple iPhone 16 (Black, 128 GB)\n")
     
     scraper = SimpleFlipkartScraper()
     scraper.log_progress("="*60)
-    scraper.log_progress("Scraper started - Resuming from page 520")
+    
+    # Check for resume point
+    last_page = scraper._get_last_successful_page()
+    resume_page = scraper._calculate_resume_page(last_page)
+    
+    if last_page > 0:
+        scraper.log_progress(f"Resuming scrape - Last successful page: {last_page}, Starting from: {resume_page}")
+        print(f"\nResuming from page {resume_page} (Last successful: {last_page})\n")
+    else:
+        scraper.log_progress("Starting fresh scrape - iPhone 16 reviews")
+        print("\nStarting fresh scrape...\n")
     
     try:
-        total_count = scraper.scrape_reviews(url, max_pages=949, start_page=1, reverse=False)
+        # Set to 10000 to scrape all pages dynamically (will stop when 5 consecutive empty pages found)
+        total_count = scraper.scrape_reviews(url, max_pages=10000, start_page=resume_page, reverse=False)
         final_count = scraper.save_to_csv()
         
         if final_count > 0:
