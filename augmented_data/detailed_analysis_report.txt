@@ -1,0 +1,195 @@
+================================================================================
+COMPREHENSIVE DATA AUGMENTATION ANALYSIS
+================================================================================
+
+================================================================================
+📱 IPHONE 15
+================================================================================
+
+Dataset Size:
+  Original:  3,315 reviews
+  Augmented: 4,061 reviews
+  Added:     746 reviews (+22.5%)
+
+Text Statistics:
+  Average Title Length:
+    Original:  12.8 characters
+    Augmented: 12.8 characters
+  Average Review Length:
+    Original:  78.9 characters
+    Augmented: 85.7 characters
+  Average Word Count:
+    Original:  13.8 words
+    Augmented: 15.0 words
+  Word Count Range:
+    Original:  4 - 104 words
+    Augmented: 4 - 104 words
+
+Rating Distribution:
+  Rating  │  Original  │  Augmented  │  Percentage Change
+  ────────┼────────────┼─────────────┼──────────────────
+  ⭐       │  143 (  4.3%) │  181 (  4.5%) │ +  38 (+ 26.6%)
+  ⭐⭐      │   49 (  1.5%) │   59 (  1.5%) │ +  10 (+ 20.4%)
+  ⭐⭐⭐     │  105 (  3.2%) │  125 (  3.1%) │ +  20 (+ 19.0%)
+  ⭐⭐⭐⭐    │  414 ( 12.5%) │  516 ( 12.7%) │ + 102 (+ 24.6%)
+  ⭐⭐⭐⭐⭐   │ 2604 ( 78.6%) │ 3180 ( 78.3%) │ + 576 (+ 22.1%)
+
+
+================================================================================
+SAMPLE COMPARISONS - iPhone 15
+================================================================================
+
+--- Sample 1 ---
+Rating: ⭐⭐⭐⭐⭐
+
+Original Title: Awesome
+Original Review: Switch from OnePlus to iPhone I am stunned with camera performance. Everything is perfect on iPhone 15. Nikhil Kumar , Meerut Division Jan, 2024...
+
+Augmented Example: Switch from OnePlus to iPhone I am stunned with camera performance. Everything is perfect on iPhone 15. Nikhil Kumar , Meerut Division Jan, 2024...
+
+--- Sample 2 ---
+Rating: ⭐⭐⭐⭐⭐
+
+Original Title: Fabulous!
+Original Review: So beautiful, so elegant, just a vowww Akshay Meena , Jaipur Nov, 2023...
+
+Augmented Example: Amezing camera and all over best phone Neeraj Chouhan , Shajapur Nov, 2024...
+
+================================================================================
+📱 IPHONE 16
+================================================================================
+
+Dataset Size:
+  Original:  719 reviews
+  Augmented: 895 reviews
+  Added:     176 reviews (+24.5%)
+
+Text Statistics:
+  Average Title Length:
+    Original:  12.7 characters
+    Augmented: 12.7 characters
+  Average Review Length:
+    Original:  53.6 characters
+    Augmented: 58.4 characters
+  Average Word Count:
+    Original:  9.6 words
+    Augmented: 10.4 words
+  Word Count Range:
+    Original:  2 - 87 words
+    Augmented: 2 - 87 words
+
+Rating Distribution:
+  Rating  │  Original  │  Augmented  │  Percentage Change
+  ────────┼────────────┼─────────────┼──────────────────
+  ⭐       │   28 (  3.9%) │   36 (  4.0%) │ +   8 (+ 28.6%)
+  ⭐⭐      │    7 (  1.0%) │    7 (  0.8%) │ +   0 (+  0.0%)
+  ⭐⭐⭐     │   22 (  3.1%) │   30 (  3.4%) │ +   8 (+ 36.4%)
+  ⭐⭐⭐⭐    │   86 ( 12.0%) │  106 ( 11.8%) │ +  20 (+ 23.3%)
+  ⭐⭐⭐⭐⭐   │  576 ( 80.1%) │  716 ( 80.0%) │ + 140 (+ 24.3%)
+
+
+================================================================================
+SAMPLE COMPARISONS - iPhone 16
+================================================================================
+
+--- Sample 1 ---
+Rating: ⭐⭐⭐⭐
+
+Original Title: 2,05,719 Ratings
+Original Review: 6,583 Reviews 1,63,435 24,703...
+
+Augmented Example: 6,583 Reviews 1,63,435 24,703...
+
+--- Sample 2 ---
+Rating: ⭐⭐⭐⭐⭐
+
+Original Title: Mind-blowing purchase
+Original Review: Super and cool photo...
+
+Augmented Example: such a beautiful color...
+
+================================================================================
+📱 IQOO Z10
+================================================================================
+
+Dataset Size:
+  Original:  57 reviews
+  Augmented: 152 reviews
+  Added:     95 reviews (+166.7%)
+
+Text Statistics:
+  Average Title Length:
+    Original:  15.8 characters
+    Augmented: 16.1 characters
+  Average Review Length:
+    Original:  265.2 characters
+    Augmented: 275.2 characters
+  Average Word Count:
+    Original:  47.3 words
+    Augmented: 49.1 words
+  Word Count Range:
+    Original:  23 - 97 words
+    Augmented: 23 - 97 words
+
+Rating Distribution:
+  Rating  │  Original  │  Augmented  │  Percentage Change
+  ────────┼────────────┼─────────────┼──────────────────
+  ⭐       │    4 (  7.0%) │   11 (  7.2%) │ +   7 (+175.0%)
+  ⭐⭐      │    3 (  5.3%) │    7 (  4.6%) │ +   4 (+133.3%)
+  ⭐⭐⭐     │    1 (  1.8%) │    3 (  2.0%) │ +   2 (+200.0%)
+  ⭐⭐⭐⭐    │   12 ( 21.1%) │   33 ( 21.7%) │ +  21 (+175.0%)
+  ⭐⭐⭐⭐⭐   │   37 ( 64.9%) │   98 ( 64.5%) │ +  61 (+164.9%)
+
+
+================================================================================
+SAMPLE COMPARISONS - iQOO Z10
+================================================================================
+
+--- Sample 1 ---
+Rating: ⭐⭐⭐⭐⭐
+
+Original Title: ,093 ratings and 248 reviews
+Original Review: 1 250 2 94 3 263 4 1,163 5 3,323 59 User reviews sorted by 4.0 Value-for-money Review for Color Glacier Silver  Silver RAM 8 GB Storage 256 GB Best fo...
+
+Augmented Example: 1 250 2 94 3 263 4 1,163 5 3,323 59 User reviews sorted by 4.0 Value-for-money Review for Color Glacier Silver  Silver RAM 8 GB Storage 256 GB Best fo...
+
+--- Sample 2 ---
+Rating: ⭐⭐⭐⭐⭐
+
+Original Title: Classy product
+Original Review: Product is good and value fore maney and battery backup up to 2days on full charge READ MORE Satyananda Nayak Certified Buyer , Mangalore 8 months ago...
+
+Augmented Example: Display 4.5 design 4.4 camera 4.3 performance 4.6 Battery 4.7 READ MORE Raj kumar Kisku Certified Buyer , Dumka 8 months ago 15 4 Permalink Report Abu...
+
+
+================================================================================
+GENERATING VISUALIZATIONS...
+================================================================================
+
+✓ Visualizations saved to: c:\Users\yashs\Desktop\minor 2\augmented_data\augmentation_analysis.png
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+1. Overall Dataset Growth:
+   - Total original reviews: 4,091
+   - Total augmented reviews: 5,108
+   - Total added: 1,017 (+24.9%)
+
+2. Product with Highest Augmentation:
+   - iQOO Z10: +166.7%
+
+3. Augmentation Techniques Applied:
+   - Synonym replacement with contextual word mapping
+   - Random word position swapping
+   - Paraphrasing while preserving sentiment
+   - Duplicate removal to ensure unique reviews
+
+4. Benefits for Model Training:
+   - Increased dataset size reduces overfitting risk
+   - Better representation of each rating class
+   - More diverse vocabulary patterns
+   - Improved model generalization capability
+
+================================================================================
