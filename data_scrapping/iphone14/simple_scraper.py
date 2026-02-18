@@ -9,7 +9,7 @@ import re
 from datetime import datetime
 
 class SimpleFlipkartScraper:
-    CSV_FILENAME = 'iphone15_reviews.csv'
+    CSV_FILENAME = 'iphone14_reviews.csv'
     
     USER_AGENTS = [
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -216,7 +216,7 @@ class SimpleFlipkartScraper:
     
     def scrape_page(self, url):
         """Scrape a single page with retry logic"""
-        max_retries = 5
+        max_retries = 2  # Only 2 retries, then skip to next page
         for attempt in range(max_retries):
             try:
                 headers = self._get_headers()
@@ -320,21 +320,15 @@ class SimpleFlipkartScraper:
             except requests.exceptions.RequestException as e:
                 self.network_errors += 1
                 if attempt < max_retries - 1:
-                    wait_time = (2 ** attempt) * 10  # Exponential backoff: 10s, 20s, 40s, 80s
-                    self.log_progress(f"Network error on attempt {attempt+1}/{max_retries}. Retrying in {wait_time}s... Error: {str(e)[:100]}")
-                    print(f"⚠ Network error (#{self.network_errors}), retrying in {wait_time}s...")
+                    wait_time = 5  # Quick 5s retry
+                    self.log_progress(f"Network error on attempt {attempt+1}/{max_retries}. Retrying in {wait_time}s...")
+                    print(f"⚠ Network error, retrying in {wait_time}s...")
                     time.sleep(wait_time)
-                    # Rotate user agent on retry
                     self._get_headers()
                 else:
-                    self.log_progress(f"Failed after {max_retries} attempts: {str(e)}")
-                    print(f"❌ Error: Network failure after {max_retries} retries")
-                    # If too many network errors, take a longer break
-                    if self.network_errors > 10:
-                        print("⚠ Too many network errors. Pausing for 5 minutes...")
-                        time.sleep(300)
-                        self.network_errors = 0
-                    return []
+                    self.log_progress(f"Failed after {max_retries} attempts, skipping page: {str(e)[:100]}")
+                    print(f"⚠ Failed, skipping to next page")
+                    return []  # Return empty, move to next page
             except Exception as e:
                 self.log_progress(f"Unexpected error: {str(e)}")
                 print(f"❌ Error: {str(e)[:50]}")
@@ -395,7 +389,7 @@ class SimpleFlipkartScraper:
                 print(f"\n📊 Progress saved at page {page}. Total in file: {saved_count}\n")
             
             # Be polite to the server - longer delays to avoid blocking
-            delay = random.uniform(10, 15)  # Increased from 5-10 to 10-15 seconds
+            delay = random.uniform(3, 5)  # Faster: 3-5 seconds between pages
             time.sleep(delay)
         
         # Final save
@@ -450,12 +444,12 @@ class SimpleFlipkartScraper:
             return self.total_in_file
 
 def main():
-    url = "https://www.flipkart.com/apple-iphone-15-black-128-gb/product-reviews/itm6ac6485515ae4?pid=MOBGTAGPTB3VS24W&lid=LSTMOBGTAGPTB3VS24WPKDZ6H&marketplace=FLIPKART"
+    url = "https://www.flipkart.com/apple-iphone-14-starlight-128-gb/product-reviews/itm3485a56f6e676?pid=MOBGHWFHABH3G73H&lid=LSTMOBGHWFHABH3G73HHJP0CG&marketplace=FLIPKART"
     
     print("="*60)
     print("SIMPLE FLIPKART REVIEW SCRAPER")
     print("="*60)
-    print("Product: Apple iPhone 15 (Black, 128 GB)\n")
+    print("Product: Apple iPhone 14 (Starlight, 128 GB)\n")
     
     scraper = SimpleFlipkartScraper()
     scraper.log_progress("="*60)
@@ -468,7 +462,7 @@ def main():
         scraper.log_progress(f"Resuming scrape - Last successful page: {last_page}, Starting from: {resume_page}")
         print(f"\nResuming from page {resume_page} (Last successful: {last_page})\n")
     else:
-        scraper.log_progress("Starting fresh scrape - iPhone 15 reviews")
+        scraper.log_progress("Starting fresh scrape - iPhone 14 reviews")
         print("\nStarting fresh scrape...\n")
     
     try:

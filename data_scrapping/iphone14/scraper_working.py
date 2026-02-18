@@ -9,7 +9,7 @@ import re
 from datetime import datetime
 
 class SimpleFlipkartScraper:
-    CSV_FILENAME = 'iphone15_reviews.csv'
+    CSV_FILENAME = 'iphone14_reviews.csv'
     
     USER_AGENTS = [
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -450,12 +450,12 @@ class SimpleFlipkartScraper:
             return self.total_in_file
 
 def main():
-    url = "https://www.flipkart.com/apple-iphone-15-black-128-gb/product-reviews/itm6ac6485515ae4?pid=MOBGTAGPTB3VS24W&lid=LSTMOBGTAGPTB3VS24WPKDZ6H&marketplace=FLIPKART"
+    url = "https://www.flipkart.com/apple-iphone-14-starlight-128-gb/product-reviews/itm3485a56f6e676?pid=MOBGHWFHABH3G73H&lid=LSTMOBGHWFHABH3G73HHJP0CG&marketplace=FLIPKART"
     
     print("="*60)
     print("SIMPLE FLIPKART REVIEW SCRAPER")
     print("="*60)
-    print("Product: Apple iPhone 15 (Black, 128 GB)\n")
+    print("Product: Apple iPhone 14 (Starlight, 128 GB)\n")
     
     scraper = SimpleFlipkartScraper()
     scraper.log_progress("="*60)
@@ -468,7 +468,7 @@ def main():
         scraper.log_progress(f"Resuming scrape - Last successful page: {last_page}, Starting from: {resume_page}")
         print(f"\nResuming from page {resume_page} (Last successful: {last_page})\n")
     else:
-        scraper.log_progress("Starting fresh scrape - iPhone 15 reviews")
+        scraper.log_progress("Starting fresh scrape - iPhone 14 reviews")
         print("\nStarting fresh scrape...\n")
     
     try:
