@@ -1,0 +1,16 @@
+[2026-02-18 19:49:17] =======================================================
+[2026-02-18 19:49:17] Starting fresh scrape — iPhone 14 Amazon reviews
+[2026-02-18 19:49:26] Fetching URL: https://www.amazon.in/product-reviews/B0BDJS3MRM/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews
+[2026-02-18 19:49:28]   Next URL: https://www.amazon.in/product-reviews/B0BDJS3MRM/ref=cm_cr_getr_d_paging_btm_next_2?ie=UTF8&reviewerType=all_reviews&pageNumber=2
+[2026-02-18 19:49:28] Page 1: Found 7 new reviews (Buffer: 7)
+[2026-02-18 19:49:38] Fetching URL: https://www.amazon.in/product-reviews/B0BDJS3MRM/ref=cm_cr_getr_d_paging_btm_next_2?ie=UTF8&reviewerType=all_reviews&pageNumber=2
+[2026-02-18 19:49:41]   Next URL: https://www.amazon.in/product-reviews/B0BDJS3MRM/ref=cm_cr_getr_d_paging_btm_next_2?ie=UTF8&reviewerType=all_reviews&pageNumber=2
+[2026-02-18 19:49:41] Page 2: 0 new reviews — all duplicates or empty (Consecutive: 1)
+[2026-02-18 19:49:51] Fetching URL: https://www.amazon.in/product-reviews/B0BDJS3MRM/ref=cm_cr_getr_d_paging_btm_next_2?ie=UTF8&reviewerType=all_reviews&pageNumber=2
+[2026-02-18 19:49:52]   Next URL: https://www.amazon.in/product-reviews/B0BDJS3MRM/ref=cm_cr_getr_d_paging_btm_next_2?ie=UTF8&reviewerType=all_reviews&pageNumber=2
+[2026-02-18 19:49:52] Page 3: 0 new reviews — all duplicates or empty (Consecutive: 2)
+[2026-02-18 19:50:02] Fetching URL: https://www.amazon.in/product-reviews/B0BDJS3MRM/ref=cm_cr_getr_d_paging_btm_next_2?ie=UTF8&reviewerType=all_reviews&pageNumber=2
+[2026-02-18 19:50:03]   Next URL: https://www.amazon.in/product-reviews/B0BDJS3MRM/ref=cm_cr_getr_d_paging_btm_next_2?ie=UTF8&reviewerType=all_reviews&pageNumber=2
+[2026-02-18 19:50:03] Page 4: 0 new reviews — all duplicates or empty (Consecutive: 3)
+[2026-02-18 19:50:11] Scraper interrupted by user
+[2026-02-18 19:50:11] Progress saved. Total: 7
