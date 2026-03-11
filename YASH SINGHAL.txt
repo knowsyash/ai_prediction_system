@@ -1,0 +1,206 @@
+WE REMOVED VIA REGEX TO REMOVE NOISE IN THE FORMAT LIKE EMOJI SPECIAL CHARACTER 
+BUT I THINK WE SHOULD KEEP SYMBOLS LIKE DOLLAR RUPPES
+
+*(A) `[^\x00-\x7F]`** — Matches any character outside the ASCII range (0–127). This removes:
+- Emoji (unicode range 0x1F600+)
+- Hindi/Tamil/regional script accidentally included
+- Special Unicode quotes `"` `"` → replaced with space
+
+**(B)** After emoji removal, you often get multiple spaces. `\s+` → `' '` collapses them back to single space.
+
+**(C) `[^\w\s.,!?-]`** — Whitelist approach: keep only word characters (`\w` = letters, digits, `_`), whitespace, and basic punctuation (comma, period, exclamation, question mark, hyphen). Everything else (pipe `|`, tilde `~`, asterisk `*`, brackets) is removed.
+
+**Why keep it simple?** This scraper focuses on extracting rating, title, and review text only. No date or city extraction needed for the analysis. The clean_text function ensures the data is readable and ML-ready without removing important content.
+
+---
+
+noise_keywords = ['Certified Buyer', 'Verified Purchase', 'Report Abuse', 
+                 'Permalink', 'Helpful', 'READ MORE', 'Review for Color',
+                 'Storage', 'ratings and', 'reviews']
+
+
+SIR TOLD US TO INCLUDE FORMULA IN THE SLIDE SO HE MAY ASKED FROM IT SOMETHING 
+MAKE A GOOD PPT WITH SDLC USE CASE DIAGRAM 
+
+WHY BEUATIFPUL SOUP IS USED 
+WHY REQUEST LIBRARY REGEX IS USED 
+
+
+
+
+
+FIRST WE CREATED STRATEGIES HOW TO IMPROVE PROBLEM WITH SCRPPER NOT 
+BECAYSE SCRAPPING TAKE 2-4 HOURS SO IF SOME HOW FAILEDED IN BETWEEN
+SO WE START MAINTAING A LOG FILE IN UPGRADED SCRAPPER
+
+
+WE ADD RANOM BREAKERS BETWEEN THEM TO MAKE IT MORE LOOK LIKE HUMAN 
+
+
+AND WHAT IS THE PROBLEM WHICH WE PHASE SOMETIME DYNAMICALLY UI HTML PAGE WEHRE SOMETIMES SCRAPPER FAILED TO EXTRACT?
+
+
+YOUR SCRAPER GETS STRUCTURE A ON MONDAY AND STRUCUTRE B ON DIFFRENT DAY IT IS RANDOM SO WE NEED TO SCRAP 
+WITHING FEW HOURS OTHER WISE OUR OLD SCRAPPER IS GOT DAMAGED
+
+
+OUR GOAL IS TO PERFORM SENTIMENAL ANALYSIS 
+SO WE MAY DECIDE HOW OUR SCORE IS WORKING BETTER
+
+
+The Problem: Websites change their HTML code frequently (class names, structure, layout) to either:
+
+Improve design
+Block bots
+Run A/B tests
+
+A/B Testing in Simple Language:
+A/B Testing = Showing different versions of a website to different users to see which works better
+
+Real-World Example: Netflix
+Imagine Netflix wants to know which button color gets more clicks:
+
+Version A (Red Button):
+Version B (Green Button):
+After 1 week:
+
+Red button: 10,000 clicks
+Green button: 15,000 clicks
+Netflix decides: "Green is better! Use green for everyone!"
+
+WHAT ARE THE TEXT RATING REVIEW CITY DATE
+
+Think of it Like This:
+Imagine you have 3 recipe variations:
+
+"Good pizza with cheese" (Original)
+"Great pizza with cheese" (Augmented - "good" → "great")
+"Pizza great with cheese" (Augmented - words swapped)
+
+
+The 3 Techniques Used:
+1. Synonym Replacement (Paraphrasing) - MAIN TECHNIQUE
+What it does: Replace common words with synonyms
+
+synonyms = {
+    'good': ['great', 'nice', 'excellent', 'wonderful'],
+    'camera': ['photography', 'picture quality', 'imaging'],
+    'battery': ['power', 'charge', 'battery life'],
+    'phone': ['device', 'handset', 'mobile', 'smartphone']
+}
+
+# 30% chance to replace each word:
+for word in text.split():
+    if random.random() < 0.3:  # 30% probability
+        new_word = random.choice(synonyms[word])
+
+2. Random Word Swapping
+What it does: Swap positions of 1-2 words in the sentence
+
+. Random Deletion (Used minimally)
+What it does: Remove some words with 10% probability
+
+
+
+
+
+
+
+
+┌─────────────────────────────────────┐
+│  Flipkart Updates Website           │
+│  (Every few weeks)                  │
+└─────────────┬───────────────────────┘
+              │
+              ▼
+┌─────────────────────────────────────┐
+│  HTML Structure Changes             │
+│  - Class names: fWi7J_ → gX8J2_     │
+│  - Element order shuffles           │
+│  - New layout appears               │
+└─────────────┬───────────────────────┘
+              │
+              ▼
+┌─────────────────────────────────────┐
+│  Your Scraper Runs                  │
+└─────────────┬───────────────────────┘
+              │
+         ┌────┴────┐
+         │         │
+    Finds 0    Finds 100
+    reviews    reviews
+    ❌         ✅
+    (Broken)   (Still works)
+
+SIR TOLD US TO USE LIBRAY WGAN
+
+
+
+TextBlob uses a pre-built lexicon (dictionary) called the Pattern Lexicon that contains thousands of words with pre-assigned sentiment scores.
+
+4. How Lexicon Was Built:
+
+The Pattern lexicon was created by linguistic researchers who:
+
+Manually reviewed thousands of words
+Assigned sentiment scores based on linguistic analysis
+Used corpus analysis (studying millions of texts)
+Validated scores through human annotation
+
+
+"excellent": (+0.5, 0.9)
+              ↑     ↑
+           Polarity  Subjectivity
+
+
+# Pattern Lexicon stores individual word scores:
+"excellent" → polarity: +0.5, subjectivity: 0.9
+"bad" → polarity: -0.7, subjectivity: 0.6
+"phone" → polarity: 0.0, subjectivity: 0.0 (not in lexicon)
+
+# Check words around each sentiment word:
+"excellent" → no negation before it → keep +0.5
+"bad" → no negation before it → keep -0.7
+
+# If there was negation:
+"not excellent" → would flip to negative
+"very bad" → would intensify (multiply by ~1.3)
+
+Found sentiment words: ["excellent" (+0.5), "bad" (-0.7)]
+
+Statement Polarity = (+0.5 + -0.7) / 2 = -0.1
+
+
+
+
+Step 1: Tokenize → ["Great", "phone", "but", "battery", "is", "terrible"]
+
+Step 2: Lookup
+"Great" → +0.8
+"phone" → 0.0
+"but" → 0.0
+"battery" → 0.0
+"is" → 0.0
+"terrible" → -1.0
+
+Step 3: Check modifiers (none found)
+
+Step 4: Average
+Polarity = (+0.8 + -1.0) / 2 = -0.1 (slightly negative)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
