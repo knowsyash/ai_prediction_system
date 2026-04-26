@@ -1,0 +1,720 @@
+rating,title,review_text,date,city,TextBlob_Label,TextBlob_Score,VADER_Label,VADER_Score,BERT_Label,BERT_Score
+4,"2,05,719 Ratings","6,583 Reviews 1,63,435 24,703",,,Neutral,0.0,Neutral,0.0,POSITIVE,0.9407995343208313
+5,Mind-blowing purchase,Super and cool photo,Mar 2025,Uttara Kannada District,Positive,0.3416666666666667,Positive,0.7351,POSITIVE,0.9998801946640015
+5,Terrific,Such an great experience,Oct 2025,,Positive,0.4,Positive,0.6249,POSITIVE,0.9998594522476196
+5,Mind-blowing purchase,with unbeatable video performance. Tip-top performance A18 Chip. best value offering.,Nov 2025,Agra,Positive,1.0,Positive,0.765,POSITIVE,0.9973549842834473
+5,Wonderful,such a beautiful color,Oct 2025,Koraput,Positive,0.425,Positive,0.5994,POSITIVE,0.9998795986175537
+5,Brilliant,Doing good as of now!,May 2025,Agartala,Positive,0.875,Positive,0.4926,POSITIVE,0.9998487234115601
+5,Just wow!,Value for money sarath kumar,Oct 2025,Kochi,Neutral,0.0,Positive,0.34,POSITIVE,0.9905074834823608
+5,Mind-blowing purchase,"Best phone, best feature charge, best performance, I love this iPhone 16.",Jul 2025,Bangaon,Positive,0.875,Positive,0.9571,POSITIVE,0.9994850158691406
+5,Wonderful,Love the quality of pics it takes Ghosh,Nov 2025,Chakapara,Positive,0.5,Positive,0.6369,POSITIVE,0.9998468160629272
+5,Awesome,"Compact, easy to carry. Like it",May 2025,Sibsagar,Positive,0.43333333333333335,Positive,0.6597,POSITIVE,0.9998472929000854
+5,Best in the market!,iOS is always amazing.,Oct 2024,Thane,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998774528503418
+5,Just wow!,Fell in love with the colour sai kumar,Apr 2025,Rangareddy,Positive,0.5,Positive,0.6369,POSITIVE,0.998893678188324
+4,Delightful,Everything is fine except the battery should have been lasting longer and the new camera button Felt useless,Apr 2025,New Delhi,Positive,0.013257575757575746,Negative,-0.25,NEGATIVE,0.9991093277931213
+5,Best in the market!,Got it in just look awesome,Jun 2025,Kashipur,Positive,1.0,Positive,0.6249,POSITIVE,0.9998646974563599
+5,Best in the market!,Finally I got it and love it,Jan 2025,Noida,Positive,0.25,Positive,0.6369,POSITIVE,0.9998812675476074
+5,Perfect product!,Awesome product ashwin roy,Oct 2024,Kalamassery,Positive,1.0,Positive,0.6249,POSITIVE,0.9998619556427002
+5,Awesome,Great experience with great camera,Apr 2025,Rupnagar District,Positive,0.8,Positive,0.8481,POSITIVE,0.9998769760131836
+5,Simply awesome,Govinda kumar Choudhary,Apr 2025,Patna,Neutral,0.0,Neutral,0.0,POSITIVE,0.9971279501914978
+5,Perfect product!,Recently changed a smooth ui and best experience,Jan 2025,New Delhi,Positive,0.4666666666666666,Positive,0.6369,POSITIVE,0.9954360127449036
+5,Just wow!,Upgraded 12mini Good battery life and performance Ultramarine the best one,May 2025,Nagaon,Positive,0.85,Positive,0.7964,POSITIVE,0.9994381070137024
+5,Super!,One of the best phone.,Aug 2025,Patna Division,Positive,1.0,Positive,0.6369,POSITIVE,0.9998133778572083
+5,Terrific purchase,"Bought the phone solely for battery performance and assuming camera of iPhones are always good. A bit of disappointment as I switched S22 Plus which offered great screen quality, excellent camera and Galaxy did wonders while iPhone 16 is not performing as expected in terms of battery and camera quality. 1. Touch screen 2. 3. Light weight",Jan 2025,Pune District,Positive,0.36666666666666664,Positive,0.8126,NEGATIVE,0.9452542662620544
+5,Awesome,Mind blowing pictures,Jul 2025,North Twenty Four Parganas District,Neutral,0.0,Neutral,0.0,POSITIVE,0.9974422454833984
+5,Classy product,received via Flipkart. Everything is perfect about this phone except battery backup. I think need to work on battery. amit kaundal,Mar 2025,Chandigarh,Positive,1.0,Positive,0.5719,POSITIVE,0.9847714304924011
+5,Terrific,Everything is fantastic go for it,Aug 2025,Hyderabad,Positive,0.4,Positive,0.5574,POSITIVE,0.999884843826294
+5,Highly recommended,like it feel premium,Jan 2025,Bhubaneswar,Neutral,0.0,Positive,0.3612,POSITIVE,0.9993189573287964
+5,Wonderful,Just wow its worth the price,Oct 2024,Barjora,Positive,0.2,Positive,0.6908,POSITIVE,0.9997624754905701
+5,Super!,My wife 1st i phone thank you,Apr 2025,New Delhi,Neutral,0.0,Positive,0.3612,POSITIVE,0.9995162487030029
+4,Horrible,Battery gets drain in 6-7 hr with even just normal uses. Dont buy this phone. I got frustrated with this issue. Rishabh raj,Jun 2025,Noida,Negative,-0.27499999999999997,Negative,-0.5267,NEGATIVE,0.9989732503890991
+5,Just wow!,and Bank offer on Flipkart.,Sep 2024,Noida,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9177334904670715
+5,A Great upgrade 12!,"Upgraded to the 16 12 and it is a great phone. looks and feels sooo good. The photos dont do enough justice to this variant. You definitely do not need to upgrade to this if you are having a 14 or a 15, unless is something that you do not want to live without. Camera is great, though not very sure of the thing, cuz all that is pretty much available on-screen . Also, got a great deal on the exchange and bank offer, so zero co...",Sep 2024,Bengaluru,Positive,0.3694055944055944,Positive,0.9511,POSITIVE,0.9467346668243408
+5,Must buy!,Awesome product K,Oct 2024,Bengaluru,Positive,1.0,Positive,0.6249,POSITIVE,0.9998630285263062
+4,Wonderful,"The design, build quality, battery backup are also good, sound quality is really impressive and Apple brand value, these are the pros in this mobile. 1.The display is not up to the mark, because the refresh rate only supports 60hz and the display is not vibrant. 2. The camera is also not very impressive just okay. 3. File sharing with android or windows literally headache.. 4. Signal reception is lacking.. 5. features are not useful and totally waste.",Nov 2025,Ysr District,Positive,0.198005698005698,Positive,0.8928,NEGATIVE,0.9993141889572144
+5,Highly recommended,Top notch camera quality and very good performance overall too good without any hesitation go for it,Nov 2025,Raipur,Positive,0.5275,Positive,0.8402,POSITIVE,0.9998074173927307
+5,Awesome,Love it no complaints!,Aug 2025,Bhojpur District,Positive,0.625,Positive,0.1511,POSITIVE,0.999859094619751
+5,Awesome,My mom love the colour and the phone is amazing ajay Vishwakarma,Jun 2025,Thane,Positive,0.55,Positive,0.8402,POSITIVE,0.9998132586479187
+5,Awesome,The display is absolutely crazy and also I can say that the haptics of the phone is super smooth but only concerned is that image editing ai is not good as,Jun 2025,Dhone,Negative,-0.04333333333333332,Negative,-0.3623,NEGATIVE,0.9994682669639587
+5,Super!,iPhone 16 is a wonderful cell phone . 48MP camera is outstanding. I bought 256GB model. I would recommend to buy the product.,Sep 2025,Kolkata,Positive,0.75,Positive,0.8807,POSITIVE,0.9997406601905823
+5,Must buy!,Wonderfully lightweight stuff. Worth purchasing. Improved speakers and a more seamless display. Incredibly cozy to use with one hand. Go for Teal colour. Swostik,Sep 2024,Kalahandi District,Positive,0.34,Positive,0.9022,POSITIVE,0.9996033310890198
+5,Fabulous!,Colour is very good also camera placement Rahul yadav,Sep 2024,Loni,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998279809951782
+5,Terrific,iPhone 16 is best for those who not buy 15 series. And it has very best hand feel. Deepak kumar,Jan 2025,Noida,Positive,1.0,Positive,0.9166,POSITIVE,0.9982085227966309
+5,Excellent,Its a fake details I havent ordered yet But showing I phone jad ordered,Jun 2025,Hansi,Negative,-0.5,Negative,-0.2617,NEGATIVE,0.9957518577575684
+5,Brilliant,Best for videography and also good for photos if you are interested in little bit editing . Look and feel of the phone is premium and top notch software experience . Battery backup is good considering the form factor and performance is also superb . Major problem is low refresh rate but I tink those who are going to buy they know it already . Overall a good buy if videography is a pr...,Jan 2025,Champdani,Positive,0.4295454545454546,Positive,0.8945,POSITIVE,0.9979853630065918
+5,Super!,Camera 1010 Battery 108 Display 1010 Design 1010 Performance 1010 Finally a in this price segment,Jan 2025,Aligarh District,Neutral,0.0,Neutral,0.0,POSITIVE,0.7818659543991089
+5,Best in the market!,overall a perfect compact phone.,Jan 2025,Jaipur,Positive,0.5,Positive,0.5719,POSITIVE,0.9997566342353821
+5,Just wow!,16. . . . . I 2021 . . . . .,Oct 2025,Purba Bardhaman District,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9649255275726318
+5,Perfect product!,"This is best quality delivered always. When I was installing my backup , it became very hot during camera operation. But after the software update, gradually it became normal. Now it is working well. I also went to Imagine for a checkup and came to know that this is quite normal. Thats it. I hope after the Apple intelligence update we can have some new features and entertainment windows will open for us Thanks, for delivering with promise and safety. saswata sanyal",Sep 2024,Kolkata,Positive,0.28019480519480516,Positive,0.9807,POSITIVE,0.9994576573371887
+5,Super!,"Amazing device, everything is top notch jayata banerjee",Jan 2025,Asansol,Positive,0.55,Positive,0.6808,POSITIVE,0.9998779296875
+5,Highly recommended,Bad camera quality at this range. Go for samsumg s25,Jan 2025,Pune,Negative,-0.6999999999999998,Negative,-0.5423,NEGATIVE,0.9998050332069397
+4,Good quality product,"I have switched 6a to iPhone 16 , everything is good but camera is no match to pixel, even with 12 megapixel camera pixel 6a was much better.",May 2025,New Town,Positive,0.6,Positive,0.4588,NEGATIVE,0.9970243573188782
+5,Super!,Premium experience,Nov 2025,Farakka Pts Township,Neutral,0.0,Neutral,0.0,POSITIVE,0.9997678399085999
+5,Terrific,Camera is very good but Im really missing a telephoto lens... However the 2x zoom is really lossless zoom and i loved it 1st time using i os... Switching ...its a bit difficult tusk to adujst yourself from a 120hz display to a 60hz display... But i really like the overall experience of this phone...,Nov 2025,Singur,Positive,0.1871428571428571,Positive,0.6855,POSITIVE,0.9605872631072998
+5,Excellent,Buy it now everything is good,Oct 2025,Meerut,Positive,0.7,Positive,0.4404,POSITIVE,0.9998660087585449
+5,Excellent,Awesome phone Nishant ranjan,Oct 2025,Mumbai,Positive,1.0,Positive,0.6249,POSITIVE,0.999554455280304
+5,Wonderful,This phone is really amazing,Apr 2025,Yadgir District,Positive,0.6000000000000001,Positive,0.624,POSITIVE,0.9998595714569092
+5,Super!,"iphone is ever good product to buy, but need to improve battery backup also. I think there is no need of camera short cut button, but its good to open in single click, apple intelligence is ok ok feature. Is recommendable product you can buy. Rajneesh",Nov 2024,New Delhi,Positive,0.33265306122448973,Positive,0.9319,POSITIVE,0.9996237754821777
+4,Good choice,Absolutely premium product...just now. Thanks flipkart Im glad such a beautiful iphone 16 too good Loved it,Nov 2025,Kavisurjyanagar,Positive,0.45000000000000007,Positive,0.9485,POSITIVE,0.9996469020843506
+5,Wonderful,Amazing purchase,Nov 2025,Ranchi,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998840093612671
+5,Just wow!,Fantastic product..no flaws,Jun 2025,Ahmedabad,Positive,0.4,Positive,0.5574,POSITIVE,0.9998503923416138
+5,Worth every penny,My first iPhone and its literally amazing although I like its performance and camera my overall experience is very good! Adhayan V Alankar,Jun 2025,Lucknow Division,Positive,0.4625,Positive,0.8685,POSITIVE,0.9998660087585449
+4,Worth the money,Good phone like it Ajin B,Oct 2025,Palakkad District,Positive,0.7,Positive,0.6597,POSITIVE,0.9995595812797546
+5,Terrific,"great camera, great battery life, overall a good package.",Jun 2025,Faridabad,Positive,0.575,Positive,0.9022,POSITIVE,0.9998773336410522
+5,Classy product,"Awesome product. If you are an apple fanboy, go for it. , S Kannanur",Jan 2025,,Positive,1.0,Positive,0.6249,POSITIVE,0.9998015761375427
+5,Highly recommended,Amazing camera results and big battery life,Jan 2026,Sikandra Rao,Positive,0.30000000000000004,Positive,0.5859,POSITIVE,0.9998486042022705
+5,Best in the market!,Amazing camera quality,Dec 2025,,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998818635940552
+5,Must buy!,"Excellent but delivery too late, but I m happy ajay kumar",Nov 2025,Rohtak,Positive,0.5,Positive,0.8126,POSITIVE,0.9991328120231628
+5,Perfect product!,Best price on this time Rakesh swami,Oct 2025,Nohar,Positive,1.0,Positive,0.6369,POSITIVE,0.9986826777458191
+5,Wonderful,Just go ahead and buy it.,Jan 2025,Kolkata,Neutral,0.0,Neutral,0.0,POSITIVE,0.9993153810501099
+5,Terrific,Perfect..down to the last .. everything is perfect,Apr 2025,Kanth Shahjahanpur District,Positive,0.5,Positive,0.5719,POSITIVE,0.9998844861984253
+5,Simply awesome,Awesome phone as always. Got a good deal on Flipkart chandan tiwari,Mar 2025,New Delhi,Positive,0.85,Positive,0.7906,POSITIVE,0.999700665473938
+4,Wonderful,No doubt its built quality is unmatched. better to buy an android phone of this range than this one. Android respects your freedom to choose more.,May 2025,Muzaffarpur District,Positive,0.5,Positive,0.6597,NEGATIVE,0.5655724406242371
+5,Brilliant,Switched from 12 mini to iPhone 16 - battery 1010 - camera 1010 - hold and feel 1010 - ios 910 - heavy tasking 810 Should you upgrade?? If you are at iPhone 1213 then you should . From 1415 you will minor improvement changes only !,Sep 2024,Ghu,Negative,-0.08333333333333333,Positive,0.565,NEGATIVE,0.9980542659759521
+5,Classy product,Md saddam Hussain,Nov 2025,Dhanwar,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9497528076171875
+5,Must buy!,Camera quality is excellent Battery backup is durable Performence is superb as I expected,Sep 2025,Fatehabad,Positive,0.6333333333333333,Positive,0.8316,POSITIVE,0.9996805191040039
+4,Good choice,Wonderful product,Oct 2025,Surat,Positive,1.0,Positive,0.5719,POSITIVE,0.9998840093612671
+3,Does the job,"The model is excellent with 5 stars on all features except two issues. 1. Battery life is really less. 2. Heating issues in the phone Note if you are a iphone plus, pro or pro max users then dont buy only 16 go with next versions or you will be disappointed",Jan 2025,Malegaon,Positive,0.016666666666666673,Positive,0.1531,NEGATIVE,0.7807702422142029
+5,Just wow!,"Phone is very smooth, battery is far better than 14 which I previously had. 18 is perfectly running with no bugs",Sep 2024,Pune,Positive,0.3906666666666667,Positive,0.7096,POSITIVE,0.9990247488021851
+5,Just wow!,Super camera resolution battery also super fast charger performance -100 design-camera design super,Dec 2025,New Delhi,Positive,0.3,Positive,0.9136,POSITIVE,0.5951253175735474
+5,Simply awesome,Awesome only no words to explain,Jan 2026,Raipur,Positive,0.5,Positive,0.4404,NEGATIVE,0.9571973085403442
+5,Fabulous!,"First ios ,feeling happy thank u flipkart .",Nov 2025,Rudrapur,Positive,0.525,Positive,0.7717,POSITIVE,0.9997244477272034
+5,Awesome,Performance top notch but App opening time hanging .,Nov 2025,Patuli,Positive,0.5,Positive,0.1027,NEGATIVE,0.9770188927650452
+5,Fabulous!,Very very nice camera quality I love it,Nov 2025,Faridabad,Positive,0.64,Positive,0.8211,POSITIVE,0.9998787641525269
+5,Terrific,Very nice Dileep M C,Nov 2025,Bengaluru,Positive,0.78,Positive,0.4754,POSITIVE,0.9997993111610413
+5,Just wow!,Product is very good and also delivery boys behaviours is very good,Nov 2025,Barmer,Positive,0.9099999999999999,Positive,0.7496,POSITIVE,0.9998038411140442
+4,Good choice,Only for brand..but best,Nov 2025,Nadia District,Positive,0.5,Positive,0.6369,POSITIVE,0.9946461319923401
+5,Awesome,Thankyou flipkart bbd sale food prize and good Look iPhone 16 Im happy full satisfied,Oct 2025,Muzaffarpur,Positive,0.5875,Positive,0.9136,POSITIVE,0.9995355606079102
+5,Highly recommended,60 sanjay kumar saraf,Jun 2025,Howrah,Neutral,0.0,Neutral,0.0,POSITIVE,0.9923375248908997
+5,Wonderful,Great product bijay karki,May 2025,Jalpaiguri,Positive,0.8,Positive,0.6249,POSITIVE,0.9989135265350342
+5,Must buy!,Nice product worth of money reddy,May 2025,Karimnagar,Positive,0.44999999999999996,Positive,0.5719,POSITIVE,0.9996873140335083
+5,Mind-blowing purchase,Value for money.,Apr 2025,Bengaluru,Neutral,0.0,Positive,0.34,POSITIVE,0.9976842403411865
+5,Great product,My fathers first iphone Colour is awesome and so light in weight It should be available with 256gb Anyways design and camera is awesome,Sep 2024,Lakhimpur,Positive,0.61,Positive,0.8481,POSITIVE,0.995636522769928
+5,Must buy!,Overall good performance,Jun 2025,Delhi Division,Positive,0.35,Positive,0.4404,POSITIVE,0.9998573064804077
+4,Worth the money,Awesome product Sharma,Jan 2025,Balaghat,Positive,1.0,Positive,0.6249,POSITIVE,0.9998552799224854
+5,Simply awesome,battery backup is very good harpreet,Oct 2025,Rampura Phul,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9989173412322998
+5,Excellent,iPhone 16 battery is awesome,Apr 2025,Navi Mumbai,Positive,1.0,Positive,0.6249,POSITIVE,0.9997808337211609
+5,Terrific purchase,Must buy product,Jan 2025,Ranchi,Neutral,0.0,Neutral,0.0,POSITIVE,0.9309013485908508
+5,Mind-blowing purchase,Very handy phone perfect in every aspect ..,Jan 2025,Barpeta,Positive,0.89,Positive,0.6077,POSITIVE,0.9995880722999573
+4,Nice product,On 26 th sep i got this phone . All are good but one thing i noticed that the phone heat up when I open the camera. I didnt know why these thing are happening . While writing this review i only used this phone for 1 hr. Shashi kant Singh,Oct 2025,Gurgaon Division,Positive,0.2333333333333333,Positive,0.2382,NEGATIVE,0.9001591205596924
+5,Classy product,All the features are working fine.,Jan 2025,New Delhi,Positive,0.4166666666666667,Positive,0.2023,POSITIVE,0.9998186230659485
+5,Classy product,More smoothly then 15,Sep 2024,Maunath Bhan,Positive,0.45,Neutral,0.0,POSITIVE,0.9989004135131836
+5,Fabulous!,was marvelous except 60 Hz display and battery,Nov 2025,Raichur,Positive,1.0,Positive,0.5994,POSITIVE,0.9998371601104736
+5,Worth every penny,"is Supreme, Display is Awesome, Performance is outstanding, Battery is worst, Display size is very",Apr 2025,Display,Positive,0.175,Positive,0.8225,POSITIVE,0.9986056685447693
+5,Best in the market!,"Nice mugambo khush hua, .",Nov 2025,Kotkapura,Positive,0.6,Positive,0.4215,POSITIVE,0.9976164102554321
+5,Brilliant,Such a great and powerful phone,Aug 2025,Sah,Positive,0.3666666666666667,Positive,0.7845,POSITIVE,0.9998196959495544
+5,Highly recommended,with the best camera,Jan 2026,Sijua,Positive,1.0,Positive,0.6369,POSITIVE,0.9998462200164795
+5,Classy product,nice product Aman,Jan 2026,Abohar,Positive,0.6,Positive,0.4215,POSITIVE,0.9997326731681824
+5,Super!,Apple - The name is enough,Sep 2025,Rajkot,Neutral,0.0,Neutral,0.0,POSITIVE,0.9915387034416199
+5,Brilliant,Best product Tamilarasan s,Jan 2026,Periyanaickenpalayam,Positive,1.0,Positive,0.6369,POSITIVE,0.9995502829551697
+5,Just wow!,"Flipkart is most trusted and best online shopping platform. About the phone there are no words to express the beauty. Camera , performance and quality is amazing. Bought is black colour. This is like my 3rd or 4th iPhone .",Nov 2025,Bhopal,Positive,0.38666666666666666,Positive,0.9498,POSITIVE,0.9997041821479797
+5,Simply awesome,Face a little bit of prb but still happy with my new iphone 16,Aug 2025,Mumbai,Positive,0.24962121212121213,Positive,0.7227,POSITIVE,0.9990696310997009
+5,Terrific purchase,The iPhone 16 is a very good choice!,Nov 2025,Nashik,Positive,1.0,Positive,0.54,POSITIVE,0.9997550845146179
+5,Must buy!,Very nice product,Nov 2025,Panchkula,Positive,0.78,Positive,0.4754,POSITIVE,0.9998691082000732
+5,Excellent,I love this device,Nov 2025,Thagarapuvalasa,Positive,0.5,Positive,0.6369,POSITIVE,0.999880313873291
+5,Perfect product!,"The iPhone 16 is a great phone, but the battery doesnt last long adarsh shukla",Nov 2025,Basti Division,Positive,0.25,Positive,0.3716,NEGATIVE,0.9593287110328674
+5,Classy product,Nice phone Thank you flipkart Nice delivery,Nov 2025,Pune Division,Positive,0.6,Positive,0.7964,POSITIVE,0.9997119307518005
+5,Mind-blowing purchase,Its good product. I love you i,Nov 2025,Haldwani,Positive,0.6,Positive,0.7964,POSITIVE,0.9998800754547119
+5,Excellent,"iPhone 16 is an outstanding device with excellent performance, brilliant display, and reliable battery backup. The camera quality is top-notch, and overall it offers a truly premium experience.",Nov 2025,Gurugram,Positive,0.5833333333333334,Positive,0.9371,POSITIVE,0.9998610019683838
+5,Highly recommended,Orginal product delivered,Jan 2026,New Delhi,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9034503698348999
+5,Terrific,Nice picture and quality is osm.loved it,Nov 2025,Delhi Division,Positive,0.6,Positive,0.4215,POSITIVE,0.999870777130127
+5,Classy product,Got best product in great deal,Nov 2025,Pune,Positive,0.9,Positive,0.8519,POSITIVE,0.9997641444206238
+5,Classy product,Very good product,Dec 2025,Udaipur,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998735189437866
+5,Terrific purchase,Loved it iphone 16 Always love apple Must buy,Dec 2025,Ahmedabad,Positive,0.6,Positive,0.8442,POSITIVE,0.9996358156204224
+5,Terrific,Delivery was very fast ! Compact size and light weight as compare to pro series ! Good choice,Nov 2025,Vadodara,Positive,0.5083333333333333,Positive,0.5399,POSITIVE,0.9994739890098572
+5,Just wow!,Everything is Good.,Nov 2025,Meerut Division,Positive,0.7,Positive,0.4404,POSITIVE,0.9998549222946167
+5,Awesome,Fabulous camer clarity Dinesh K,Nov 2025,Erode,Positive,0.4,Positive,0.7269,POSITIVE,0.9998527765274048
+5,Fabulous!,Very nice phone with ai and good cinematic vidio and photo,Nov 2025,Varanasi Division,Positive,0.49333333333333335,Positive,0.7178,POSITIVE,0.9997852444648743
+5,Just wow!,Just awesome and battery backup is good,Jan 2026,South Chotanagpur Division,Positive,0.85,Positive,0.7906,POSITIVE,0.9998544454574585
+5,Classy product,"so its my first iphone after a long time waiting and the experience is as expected amazing! so on the good side, there is no match for the video recording of an iphone as there never were. camera is just fascinating and which is the most craving thing for me. build and looks are completely unmatched to any phone as to be honest there are some phones which comes to comparison but still a phone. the display is too good to be true although 60Hz doesn...",Oct 2025,Panihati,Positive,0.4090909090909091,Positive,0.9351,POSITIVE,0.9371851086616516
+5,Must buy!,This product is best Jignesh vinodray dhrangadhariya,Oct 2025,Bhavnagar,Positive,1.0,Positive,0.6369,POSITIVE,0.9988008737564087
+5,Classy product,I can recommend this phone to anyone. Coz its a power-packed phone in a compact design. Such a premium feel when you hold it. Camera is as usual top notch. Nothing to nitpic. Just go for it,Oct 2025,Gurugram,Positive,0.08333333333333333,Positive,0.5106,POSITIVE,0.963552713394165
+5,Super!,best deal flipkart,Oct 2025,Indore,Positive,1.0,Positive,0.6369,POSITIVE,0.9991269707679749
+5,Perfect product!,Nice phone at low price thanks flipkar,Nov 2025,Delhi Division,Positive,0.26666666666666666,Positive,0.5574,POSITIVE,0.995245635509491
+5,Terrific purchase,Always superb no comments,Oct 2025,Hyderabad,Positive,1.0,Positive,0.4404,POSITIVE,0.9977717995643616
+5,Simply awesome,Worth it Pavitra,Nov 2025,North Goa,Positive,0.3,Positive,0.2263,POSITIVE,0.9998568296432495
+5,Worth every penny,Very nice saleem raja,Nov 2025,Tiruchirappalli,Positive,0.78,Positive,0.4754,POSITIVE,0.9998513460159302
+5,Just wow!,"Very good product, I love it.",Oct 2025,Natchiarkoil,Positive,0.705,Positive,0.8251,POSITIVE,0.9998842477798462
+5,Just wow!,"Nice product Krishna , Serilingampalle m",Oct 2025,Serilingampalle,Positive,0.6,Positive,0.4215,POSITIVE,0.9992910623550415
+5,Terrific,I love this product and discount also,Oct 2025,Surat,Positive,0.5,Positive,0.6369,POSITIVE,0.9998666048049927
+5,Awesome,Nice but slow display 60hz,Oct 2025,Bahraich,Positive,0.14999999999999997,Positive,0.2263,NEGATIVE,0.9045610427856445
+5,Terrific,"I am buying iPhone for the first time. I have bought an iPhone, not a soap. As people say. It is a brand new phone, there is no problem. No scratches. Best deal, best offer, best phone 100 battery health 0 damage Seal pack box",Oct 2025,Bijapur District,Positive,0.6772727272727272,Positive,0.6486,POSITIVE,0.967369794845581
+5,Must buy!,Best camera quality for video,Oct 2025,Pune,Positive,1.0,Positive,0.6369,POSITIVE,0.9995593428611755
+5,Brilliant,Excellent as always.Nice job apple,Oct 2025,Varanasi,Positive,1.0,Positive,0.5719,POSITIVE,0.9998708963394165
+5,Best in the market!,I like it satyam singh Thakur,Oct 2025,Bareli,Neutral,0.0,Positive,0.3612,POSITIVE,0.9997912049293518
+5,Worth every penny,Excellent and interesting discount,Oct 2025,Mumbai,Positive,0.75,Positive,0.7506,POSITIVE,0.9998811483383179
+4,Pretty good,"I have a great experience with iphone 16, all upgraded features is good, I highly recommend for 16 256 gb",Oct 2025,Shahjahanpur,Positive,0.5533333333333333,Positive,0.8687,POSITIVE,0.9997329115867615
+5,Best in the market!,best phone in series and also better then 17,Oct 2025,Pune,Positive,0.75,Positive,0.7964,POSITIVE,0.9965051412582397
+5,Highly recommended,Good phone camera quality is a awesome,Oct 2025,Nayagarh District,Positive,0.85,Positive,0.7906,POSITIVE,0.9998356103897095
+5,Terrific,Received in good condition... fast delivery.....all over experience is good.... and thanks flipkart....... in advance,Oct 2025,New Delhi,Positive,0.44999999999999996,Positive,0.7003,POSITIVE,0.9998537302017212
+5,Worth every penny,Very happy with the mobile,Sep 2025,Sangli Miraj Kupwad,Positive,1.0,Positive,0.6115,POSITIVE,0.9998558759689331
+5,Highly recommended,Had been using it for some time and is totally worth the money Urvashi,Sep 2025,Fatehabad District,Positive,0.3,Positive,0.2944,POSITIVE,0.999658465385437
+5,Fabulous!,"Best ever, look wise and performance wise.",Sep 2025,New Delhi,Positive,0.7999999999999999,Positive,0.886,POSITIVE,0.9998750686645508
+5,Classy product,"We all are know that iphone have no substitute, its amazing device and also my first iphone so its become very excited... No regret",Oct 2025,Kalol Gandhinagar District,Positive,0.44583333333333336,Negative,-0.4482,POSITIVE,0.9993451237678528
+5,Must buy!,Excellent product,Aug 2025,Kamrup Metropolitan District,Positive,1.0,Positive,0.5719,POSITIVE,0.9998617172241211
+5,Mind-blowing purchase,. best color. Significantly awesome!,Mar 2025,Aligarh,Positive,1.0,Positive,0.8622,POSITIVE,0.9998829364776611
+5,Classy product,The phone is good except the 60 Hz refresh rate,Oct 2025,Gorakhpur,Positive,0.7,Positive,0.4404,POSITIVE,0.9992490410804749
+5,Mind-blowing purchase,Very nice and black colour,Oct 2025,Talegaon Dabhade,Positive,0.3066666666666667,Positive,0.4754,POSITIVE,0.9998672008514404
+5,Highly recommended,"Upgraded 16, and its nice, the battwru backup is very nice and so is the camera. Just some heating issue in summers.",Jun 2025,Jammu,Positive,0.69,Positive,0.6808,POSITIVE,0.9985111355781555
+5,Perfect product!,Perfect product pranshu srivastava,Jun 2025,Lucknow Division,Positive,1.0,Positive,0.5719,POSITIVE,0.9996687173843384
+5,Wonderful,"I am loving it. Yes the battery is a bit problematic, it drained early. Apple should work on it.",Jun 2025,Garhwal District,Positive,0.35,Positive,0.296,POSITIVE,0.9871528744697571
+5,Fabulous!,Very good product,Jun 2025,Arrah,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998735189437866
+5,Terrific,Upgraded 11 to 16. Its good,Oct 2025,Gurugram,Positive,0.7,Positive,0.4404,POSITIVE,0.9998277425765991
+5,Worth every penny,"As a First time iphone user, i find the phone good",May 2025,Bengaluru,Positive,0.475,Positive,0.4404,POSITIVE,0.9991826415061951
+5,Brilliant,Best in performance and camera,May 2025,Udaipur,Positive,1.0,Positive,0.6369,POSITIVE,0.9997124075889587
+5,Simply awesome,Iphone is an iphone.,May 2025,Bengaluru,Neutral,0.0,Neutral,0.0,POSITIVE,0.7183391451835632
+5,Highly recommended,phone better than pro variant.,May 2025,Bengaluru,Positive,0.5,Positive,0.4404,POSITIVE,0.995598316192627
+5,Terrific,Got the phone in very Excellent condition And delivered in a very proper manner madhukar pawar,Oct 2025,Pune Division,Positive,0.5,Positive,0.6115,POSITIVE,0.9995061159133911
+5,Perfect product!,Wonderfully lightweight stuff. Worth purchasing. Improved speakers and a more seamless display. Incredibly cozy to use with one hand.,Mar 2025,Kolkata,Positive,0.34,Positive,0.9022,POSITIVE,0.9997739195823669
+5,Terrific purchase,"but now This time is for , I Miss features in this mobile , boaring device , Google photos editing is wonder . But I disappointed with this iphone, samsung is far better for now, new lots of features. Bro dont buy if u need comfortable, something, I buy only for flex I have both samsung and iphone , I love samsung S series Ashwani kumar",Jan 2025,Dehradun,Positive,0.1266233766233766,Positive,0.8765,NEGATIVE,0.9779708981513977
+5,Best in the market!,"iPhone 16 is great in design, performance, battery life is great although charging is slow. Casual photography is great although lacks in detail but night photos are good, videography is great , black colour is excellent.",Nov 2024,Krishnanagar,Positive,0.437037037037037,Positive,0.9738,POSITIVE,0.9998170733451843
+4,Value-for-money,Good quality camera,Jan 2026,Rajgir,Positive,0.7,Positive,0.4404,POSITIVE,0.9998619556427002
+4,Wonderful,Its light weight and for that hand fell is ultimate. Also the low light camera and protriant mode is amazing . Only the issue is battery while other phones at this size and weights still gives more battery backup,Nov 2025,Barpeta,Positive,0.22187500000000002,Positive,0.7096,POSITIVE,0.9966907501220703
+5,Worth every penny,Good specifications and good performance Nijil P,Oct 2025,Kozhikode,Positive,0.7,Positive,0.7003,POSITIVE,0.9998185038566589
+5,Awesome,This phone good design,Nov 2025,New Delhi,Positive,0.7,Positive,0.4404,POSITIVE,0.9996815919876099
+4,Delightful,Overall good phone,Oct 2025,New Delhi,Positive,0.35,Positive,0.4404,POSITIVE,0.999849796295166
+4,Worth the money,Wowed camera so good,Oct 2025,Garhwal Division,Positive,0.7,Positive,0.7778,POSITIVE,0.9998747110366821
+4,Wonderful,Over all performance is good,Oct 2025,Sipcot Thervoy Kandigal,Positive,0.7,Positive,0.4404,POSITIVE,0.9998606443405151
+4,Good quality product,"The phone is good, but the battery is draining very fast",Oct 2025,Meerut Division,Positive,0.48,Positive,0.2382,NEGATIVE,0.9883036613464355
+4,Good quality product,Totally satisfied with my first iphone but battery backup could be improved,Oct 2025,Loni,Positive,0.375,Positive,0.7349,NEGATIVE,0.7647421360015869
+5,Highly recommended,Best i phone 16. Original product and open delivery option is great.,May 2025,Konkan Division,Positive,0.54375,Positive,0.891,POSITIVE,0.9996764659881592
+5,Wonderful,Delivery service was good. And phone is awesome.,Jan 2025,Patna,Positive,0.85,Positive,0.7906,POSITIVE,0.9998459815979004
+5,Fabulous!,Thanks to flipkart it is a awesome phone,Aug 2025,Barpeta,Positive,0.6,Positive,0.7906,POSITIVE,0.9998495578765869
+5,Wonderful,"My first ever Iphone and I am really happy with the purchase. If anybody is looking for a change . Display is good, battery life is good. Camera is amazing.",Jun 2025,Ranchi,Positive,0.6100000000000001,Positive,0.9273,POSITIVE,0.9998558759689331
+5,Simply awesome,I loved this product,Oct 2025,Pune Division,Positive,0.7,Positive,0.5994,POSITIVE,0.9998711347579956
+5,Mind-blowing purchase,Value of money . Uppi,Oct 2025,Bengaluru,Neutral,0.0,Positive,0.34,POSITIVE,0.9975588321685791
+2,Bad quality,Display blinking in pink colour,Apr 2025,New Delhi,Negative,-0.1,Neutral,0.0,NEGATIVE,0.971433699131012
+5,Wonderful,Excluding memory and battery rest all good,Dec 2024,Kalyan,Positive,0.7,Positive,0.4404,NEGATIVE,0.9630985856056213
+5,Highly recommended,Every thing is fine but the only concern is with the battery health.,Oct 2025,Mohali,Positive,0.20833333333333334,Positive,0.1027,NEGATIVE,0.9611459374427795
+5,Best in the market!,Camera quality is too good,Oct 2025,Lower Assam Division,Positive,0.7,Positive,0.4404,POSITIVE,0.9994780421257019
+5,Excellent,Excellent mobile,Oct 2025,Jaipur Division,Positive,1.0,Positive,0.5719,POSITIVE,0.9998428821563721
+5,Great product,nice product and also seller.,Oct 2025,Mumbai,Positive,0.6,Positive,0.4215,POSITIVE,0.9997028708457947
+5,Awesome,Just love my first Iphone.,Aug 2025,Bengaluru,Positive,0.375,Positive,0.6369,POSITIVE,0.9995463490486145
+5,Brilliant,Phone received in good quality. Bought it in great price in sale. The delivery was delayed. Simply best just go for it if you are iphone fan. I was thinking to buy 16e but its just like iPhone X . Instead for 16. Not used to the new side camera button. Lets see.,Jul 2025,Navi Mumbai,Positive,0.6590909090909091,Positive,0.8608,NEGATIVE,0.8126401305198669
+5,Classy product,Go for 15 ya 16 pro,Jun 2025,Faridabad,Neutral,0.0,Neutral,0.0,NEGATIVE,0.8222324848175049
+5,Super!,All over good Bhagwan sahay prajapat,Mar 2025,Jaipur District,Positive,0.7,Positive,0.4404,POSITIVE,0.9991517066955566
+4,Value-for-money,First time purchasing iPhone 16 mobile super high security thirumala naidu,Jan 2025,Yemmiganur,Positive,0.24777777777777776,Positive,0.743,POSITIVE,0.9838195443153381
+5,Brilliant,Its very nice that I have upgraded my iphone 13 to an iPhone 16,Jan 2025,Rangareddy District,Positive,0.78,Positive,0.4754,POSITIVE,0.9992978572845459
+5,Just wow!,Nice products im happy thanks Pujum yomgam Yomgam,Oct 2024,Along,Positive,0.5333333333333333,Positive,0.8555,POSITIVE,0.9996618032455444
+4,Wonderful,Better than 15 and 14,Oct 2025,Faridabad Division,Positive,0.5,Positive,0.4404,POSITIVE,0.9996212720870972
+4,Good quality product,"It was a good 1st time experience, switching , enjoying using it. The seller is also authentic my iphone is not pre activated. It overall a good",Oct 2025,Delhi Division,Positive,0.48,Positive,0.8481,POSITIVE,0.9983286261558533
+4,Good choice,Amazing quality satish rana,Oct 2025,Nahan,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998530149459839
+4,Delightful,Phone is good but refresh rate is less over all good phone,Jan 2025,,Positive,0.41111111111111115,Positive,0.7003,NEGATIVE,0.9805462956428528
+4,Worth the money,Good prasad veera,Jan 2025,Hyderabad,Positive,0.7,Positive,0.4404,POSITIVE,0.9997606873512268
+5,Just wow!,Good performance and camera quality is amazing for this iPhone built quality is good. And battery is not decent but good.,Apr 2025,Mumbai,Positive,0.5233333333333333,Positive,0.8462,POSITIVE,0.9993492960929871
+5,Wonderful,Thank you So much Flipkart,Nov 2025,,Positive,0.2,Positive,0.3612,POSITIVE,0.9998620748519897
+3,Just okay,Battery too much drain,Dec 2025,Jaipur Division,Positive,0.2,Neutral,0.0,NEGATIVE,0.9996647834777832
+3,Just okay,Good but it too smoll,Nov 2025,Dimapur,Positive,0.7,Positive,0.2382,NEGATIVE,0.9958130717277527
+3,Decent product,Heating issues Gaurav pundir,Oct 2025,Ghaziabad,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9836233258247375
+5,Simply awesome,Good product singh,Oct 2025,Najibabad,Positive,0.7,Positive,0.4404,POSITIVE,0.9998495578765869
+3,Decent product,It heats like a pan in 2 mins of use,Jun 2025,Pune,Neutral,0.0,Positive,0.3612,NEGATIVE,0.996100664138794
+5,Highly recommended,After only one phone is there which is known as i,Oct 2025,Konkan Division,Neutral,0.0,Neutral,0.0,NEGATIVE,0.997465968132019
+5,Excellent,good camera setting. little hard to manage this phone,Apr 2025,Gurugram,Positive,0.07361111111111109,Positive,0.4201,NEGATIVE,0.9538299441337585
+5,Best in the market!,Superbbb performance,Jul 2025,Dharampur Industrial Estate,Neutral,0.0,Neutral,0.0,POSITIVE,0.9997166991233826
+4,Does the job,Battery life is not good,Oct 2025,Pune,Negative,-0.35,Negative,-0.3412,NEGATIVE,0.9997337460517883
+5,Super!,nice phone it also have great performance and battery capacity.,Oct 2025,Garhakota,Positive,0.7,Positive,0.7845,POSITIVE,0.999744713306427
+5,Must buy!,iPhone 16 white is awesome. Balaji K,Aug 2025,Chennai,Positive,0.5,Positive,0.6249,POSITIVE,0.9997820258140564
+5,Wonderful,But this device is notable to beat my poco X7 pro,Oct 2025,Hardwar District,Positive,0.5,Neutral,0.0,POSITIVE,0.9967579245567322
+5,Classy product,Very nice product Ram niwash,Nov 2025,Delhi Division,Positive,0.78,Positive,0.4754,POSITIVE,0.9931086301803589
+5,Must buy!,Its best product and flipkart is best online purchase app,Jan 2026,Ahmedabad,Positive,1.0,Positive,0.8555,POSITIVE,0.9993740916252136
+5,Wonderful,Nothing to say anything to apple. Its built like that,Jan 2026,Faridabad,Neutral,0.0,Positive,0.3612,NEGATIVE,0.9993610978126526
+5,Terrific purchase,Strongly recommend T B,Oct 2025,Chittoor District,Positive,0.43333333333333335,Positive,0.5574,POSITIVE,0.9996343851089478
+5,Wonderful,Best in this price range.,Jan 2026,Kachchh District,Positive,1.0,Positive,0.6369,POSITIVE,0.9996339082717896
+5,Terrific,Everything is perfect.. sale price.,Oct 2025,Saharanpur,Positive,1.0,Neutral,0.0,POSITIVE,0.9998823404312134
+2,Slightly disappointed,"Battery back up is not good, its draining too fast even when phone is idle",Jan 2026,Sangareddy,Negative,-0.04999999999999999,Negative,-0.3412,NEGATIVE,0.9994891881942749
+2,Bad quality,Black clour bery bad rekibul islam,Jan 2026,Lower Assam Division,Negative,-0.43333333333333324,Negative,-0.5423,NEGATIVE,0.993938684463501
+5,Brilliant,Other than the low screen resolution everything of this phone is perfect can be a great phone for 1st time apple user,Jan 2026,Kalyan,Positive,0.41875,Positive,0.7717,POSITIVE,0.9982909560203552
+5,Worth every penny,Simply gotta love it daksh jirati,Jan 2026,Indore,Positive,0.25,Positive,0.6369,POSITIVE,0.9997232556343079
+1,Terrible product,Too much hot while using camera worst experience,Jan 2026,Saharanpur,Negative,-0.375,Negative,-0.6249,NEGATIVE,0.9995786547660828
+5,Mind-blowing purchase,I am satisfied product is nice,Jan 2026,Gurgaon,Positive,0.55,Positive,0.6808,POSITIVE,0.999847412109375
+5,Super!,"Very nice product , but the screen size is a bit small to my liking . Also the screen hurts my eyes in the night . One plus is a better phone",Jan 2026,Thane,Positive,0.3433333333333333,Positive,0.6482,NEGATIVE,0.9946408271789551
+5,Excellent,awesome and very good product Dholu jaat Kaswan,Jan 2026,Gurugram,Positive,0.955,Positive,0.807,POSITIVE,0.9998387098312378
+1,Absolute rubbish!,Worst mobile S.. Vaheed,Jan 2026,Hyderabad,Negative,-1.0,Negative,-0.6249,NEGATIVE,0.9998089671134949
+5,Mind-blowing purchase,Amazing purchase,Jan 2026,Gurugram,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998840093612671
+1,Terrible product,Lots of bugs in every new update,Jan 2026,New Delhi,Positive,0.13636363636363635,Neutral,0.0,NEGATIVE,0.9989380240440369
+5,Classy product,Received good quality I phone,Jan 2026,New Delhi,Positive,0.7,Positive,0.4404,POSITIVE,0.9997981190681458
+5,Mind-blowing purchase,Very nice product. Amazing experience with this phone. Camera is awesome and very smooth working. I really like this phone .,Jan 2026,Paschim Bardhaman,Positive,0.62,Positive,0.9331,POSITIVE,0.9998406171798706
+4,Pretty good,Full value for money,Jan 2026,Ambala,Positive,0.35,Positive,0.34,POSITIVE,0.9975920915603638
+4,Nice product,Good phone. Battery health not that good,Jan 2026,Pune,Positive,0.7,Positive,0.1265,NEGATIVE,0.9941844344139099
+4,Pretty good,rashid chaudhary,Jan 2026,Muzaffarnagar,Neutral,0.0,Neutral,0.0,POSITIVE,0.9794613122940063
+5,Must buy!,Phone is very good loved it 24 Parganas,Jan 2026,North,Positive,0.8049999999999999,Positive,0.8111,POSITIVE,0.9996102452278137
+5,Excellent,Best ever in this price,Jan 2026,Ghaziabad,Positive,1.0,Positive,0.6369,POSITIVE,0.9998169541358948
+5,Classy product,For security wise this is the best .,Jan 2026,Pimpri Chinchwad,Positive,0.85,Positive,0.8658,POSITIVE,0.9997838139533997
+5,Super!,. Product is awesome.,Jan 2026,Aligarh,Positive,1.0,Positive,0.6249,POSITIVE,0.9998786449432373
+4,Good quality product,Very nice looking,Jan 2026,Amravati,Positive,0.78,Positive,0.4754,POSITIVE,0.9998632669448853
+5,Terrific,It feels premium .,Oct 2025,North Twenty Four Parganas District,Neutral,0.0,Neutral,0.0,POSITIVE,0.9985306262969971
+5,Best in the market!,What a Product what a camera beautiful mobile hai,Jan 2026,Jaipur,Positive,0.85,Positive,0.5994,POSITIVE,0.9995520710945129
+5,Great product,phone smooth and have great performance Sayyed parvez Ali,Jan 2026,New Delhi,Positive,0.6000000000000001,Positive,0.6249,POSITIVE,0.8818077445030212
+5,Simply awesome,What a fantastic phone. Iphone always iphone anilraj Koothur,Jan 2026,Kunnamkulam,Positive,0.4,Positive,0.5574,POSITIVE,0.9992826581001282
+5,Terrific,"Overall good device,only problem is battery backup and also still 60hz display",Jan 2026,Ernakulam,Positive,0.35,Positive,0.0516,POSITIVE,0.9672073721885681
+3,Decent product,Battery capacity Shiva,Oct 2025,Hisar,Neutral,0.0,Neutral,0.0,POSITIVE,0.9755073189735413
+5,Terrific,No doubt one of the best phone,Jan 2026,Delhi Division,Positive,1.0,Positive,0.128,POSITIVE,0.999531626701355
+3,Decent product,Overall a good phone at this price range,Jan 2026,New Delhi,Positive,0.35,Positive,0.4404,POSITIVE,0.9996116757392883
+5,Perfect product!,It is very nice and its material is also very soft.I tried it and I liked it very much.,Jan 2026,Surat,Positive,0.46,Positive,0.7089,POSITIVE,0.9998537302017212
+4,Pretty good,It was mentioned it has auto call recording facility but its not working at all,Jan 2026,Bathinda,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9984656572341919
+5,Super!,Soo good proformance,Jan 2026,Howrah,Positive,0.7,Positive,0.4404,POSITIVE,0.9995940327644348
+5,Super!,mukardamwala Salman,Jan 2026,Bharuch,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9325082302093506
+5,Best in the market!,"Nice and sturdy and easy to use with 1 hand at reasonable, however recommend to go for iPhone 17 if budget allows.",Jan 2026,Bengaluru,Positive,0.41111111111111104,Positive,0.886,POSITIVE,0.9973543882369995
+5,Simply awesome,Premium phone ever,Jan 2026,Nichlaul,Neutral,0.0,Neutral,0.0,POSITIVE,0.9839837551116943
+4,Wonderful,"iphone 16 box was bit dusty with lot of stickers . Other than that, original brand new unused piece. Camera of iphone 16 is great with focal and macro mode. Cinematic video is amazing",Jan 2026,Thrissur,Positive,0.19805194805194806,Positive,0.8807,POSITIVE,0.928989589214325
+5,Super!,Nice phone it was one best series in this brand,Jan 2026,Baddi,Positive,0.8,Positive,0.7906,POSITIVE,0.9989940524101257
+5,Perfect product!,"Overall, my experience has been good and satisfactory.",Jan 2026,Kalol Gandhinagar District,Positive,0.35,Positive,0.6597,POSITIVE,0.9998413324356079
+5,Best in the market!,Good performance nice phone,Jan 2026,Hamirpur,Positive,0.6499999999999999,Positive,0.6908,POSITIVE,0.9998108744621277
+5,Worth every penny,Good phone Ankita gupta,Jan 2026,Rampur Naikin,Positive,0.7,Positive,0.4404,POSITIVE,0.9984689354896545
+1,Terrible product,Disappointed. Haritha,Jan 2026,Chennai,Negative,-0.75,Negative,-0.4767,NEGATIVE,0.9997369647026062
+4,Pretty good,Good professional,Jan 2026,Kosi Division,Positive,0.39999999999999997,Positive,0.4404,POSITIVE,0.9998517036437988
+5,Brilliant,Excellent rajpal singh rathore,Jan 2026,Chittaurgarh District,Positive,1.0,Positive,0.5719,POSITIVE,0.9998050332069397
+5,Terrific purchase,Very good love it.,Jan 2026,Hailakandi,Positive,0.705,Positive,0.8258,POSITIVE,0.9998760223388672
+4,Nice product,Smooth use love it,Jan 2026,Chittur Thathamangalam,Positive,0.45,Positive,0.6369,POSITIVE,0.999845027923584
+5,Mind-blowing purchase,Amazing as apple provide,Jan 2026,Sardarshahar,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998832941055298
+5,Just wow!,Very good mobile,Jan 2026,Abohar,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998651742935181
+5,Just wow!,Evry time best flipkart thanks,Sep 2025,Jambusar,Positive,0.6,Positive,0.7964,POSITIVE,0.9998026490211487
+4,Nice product,Amazing product with great deal on flipkart Rahul verma,Jan 2026,Sahibzada Ajit Singh Nagar,Positive,0.7000000000000001,Positive,0.836,POSITIVE,0.9998624324798584
+5,Brilliant,soooo Happyyyyy to buy,Jan 2026,Kanpur Division,Neutral,0.0,Neutral,0.0,POSITIVE,0.9990488886833191
+5,Super!,Its so much amazing i just loved it and the colour is also so good,Jan 2026,Delhi Division,Positive,0.6666666666666666,Positive,0.9139,POSITIVE,0.9998869895935059
+5,Terrific purchase,I like it product,Jan 2026,Chavakkad,Neutral,0.0,Positive,0.3612,POSITIVE,0.9996964931488037
+4,Delightful,Pardeep vashist Sharma,Oct 2025,,Neutral,0.0,Neutral,0.0,POSITIVE,0.9930063486099243
+5,Super!,Good nice product,Jan 2026,Delhi Division,Positive,0.6499999999999999,Positive,0.6908,POSITIVE,0.9998666048049927
+5,Mind-blowing purchase,My first iPhone best experience,Jan 2026,Jaipur Division,Positive,0.625,Positive,0.6369,POSITIVE,0.9303523898124695
+5,Awesome,Very nice but some bugs needs to be fixed,Oct 2025,Kamrup Metropolitan District,Positive,0.44,Positive,0.2609,NEGATIVE,0.9989336133003235
+5,Fabulous!,Video recording quality clarity,Jan 2026,New Delhi,Neutral,0.0,Positive,0.4019,POSITIVE,0.9997609257698059
+5,Classy product,Good but high price without offers B,Jan 2026,Bhadradri Kothagudem,Positive,0.32,Positive,0.2382,POSITIVE,0.9712230563163757
+5,Worth every penny,Good a this product and so i am satisfied this product,Jan 2026,Muzaffarnagar,Positive,0.6,Positive,0.7165,POSITIVE,0.9998107552528381
+5,Simply awesome,Nice product yasmeen shaikh,Jan 2026,Mumbai,Positive,0.6,Positive,0.4215,POSITIVE,0.9996169805526733
+5,Just wow!,Best and awesome phone till date,Jan 2026,Ambedkar Nagar District,Positive,1.0,Positive,0.8519,POSITIVE,0.9998602867126465
+5,Super!,This phone very good,Nov 2025,Pune Division,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998173117637634
+5,Terrific purchase,Super I phone 101 Indian original mobile i m happy to this thak you flipcart,Jan 2026,Surat,Positive,0.5027777777777778,Positive,0.872,POSITIVE,0.986566960811615
+5,Excellent,so far the best performance i have experinced in a phone ! really amazing..,Oct 2025,Thane,Positive,0.5666666666666668,Positive,0.6962,POSITIVE,0.9998613595962524
+5,Excellent,Definitely it is an improved version compared to the older models in terms of performance and battery life. Noticeable changes after 12.,Jan 2026,Bengaluru,Positive,0.08333333333333333,Positive,0.7003,POSITIVE,0.9992546439170837
+5,Terrific purchase,Great... I need one more phone,Jan 2026,Kurukshetra,Positive,0.65,Neutral,0.0,POSITIVE,0.994020402431488
+5,Terrific purchase,Never think twice go for iPhone 16 . You will not regret. It will change your thinking about iOS . Everything is easy. You will love it. Battery is quite good .,Jan 2026,Mathabhanga,Positive,0.5444444444444444,Positive,0.9122,POSITIVE,0.9998311996459961
+5,Fabulous!,Nice one..looks classy..!,Jan 2026,Chakan,Positive,0.3625,Positive,0.4753,POSITIVE,0.9998528957366943
+4,Delightful,Nice product thnku flipkart,Jan 2026,Ateli,Positive,0.6,Positive,0.4215,POSITIVE,0.9987724423408508
+5,Wonderful,Best sound quality,Jan 2026,Nalbari,Positive,0.7,Positive,0.6369,POSITIVE,0.9997954964637756
+5,Perfect product!,"Amazing experience, battery experience, camera quality all are good.",Jan 2026,Pune,Positive,0.65,Positive,0.7717,POSITIVE,0.999871015548706
+5,Best in the market!,Go for higher storage like 256 gb,Jan 2026,Thane,Positive,0.25,Positive,0.3612,NEGATIVE,0.98597252368927
+5,Excellent,Excellent quality and service,Jan 2026,Sahibzada Ajit Singh Nagar,Positive,1.0,Positive,0.5719,POSITIVE,0.9998694658279419
+4,Useless product,Battery quality is very poor,Jan 2026,Greater Noida,Negative,-0.52,Negative,-0.5256,NEGATIVE,0.999785840511322
+5,Mind-blowing purchase,I have gift to my brother Mohd azar Hussain,Jan 2026,Hyderabad,Neutral,0.0,Positive,0.4404,POSITIVE,0.9996383190155029
+5,Terrific,thank you flipkat,Jan 2026,Indore,Neutral,0.0,Positive,0.3612,POSITIVE,0.9998164772987366
+5,Terrific,Its orginal and genuine product Im happy bcz I got unused product happy for buying online,Jan 2026,Jaipur,Positive,0.6666666666666666,Positive,0.8126,POSITIVE,0.5202462673187256
+3,Does the job,"Babal item I would say that , camera is good and battery is not good but performance is better than any android",Jan 2026,Bhagalpur,Positive,0.2833333333333333,Positive,0.775,POSITIVE,0.9988012313842773
+5,Classy product,Very nice product thanks flipkart love you,Jan 2026,Ballarpur,Positive,0.49333333333333335,Positive,0.8874,POSITIVE,0.9998759031295776
+5,Just wow!,Amazing phone. Great battery life and great camera,Jan 2026,Mumbai,Positive,0.7333333333333334,Positive,0.9186,POSITIVE,0.999860405921936
+5,Terrific,I bought it in open box delivery was smooth I shifted 16 and boy I love this product iPhone is a statement super performance simply go for it,Jan 2026,Pune,Positive,0.24666666666666667,Positive,0.8442,POSITIVE,0.9978880286216736
+5,Classy product,Loving the new IPhone 16 design and camera. The phone is lighter than previous models. Good phone at the price.,Sep 2025,New Delhi,Positive,0.3174242424242424,Positive,0.7783,POSITIVE,0.9997467398643494
+1,Worst experience ever!,Display and performance of speaker is very bad. Speaker have very pro Gaurav kaushik,Jan 2026,Palwal,Negative,-0.35499999999999987,Negative,-0.5849,NEGATIVE,0.9997302889823914
+1,Hated it!,Phone is hanging and silent button not working,Jan 2026,Vasai Virar,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9995667338371277
+1,Absolute rubbish!,Very poor battery performance Rahul kale,Sep 2025,Pune,Negative,-0.52,Negative,-0.5256,NEGATIVE,0.9998062252998352
+5,Super!,Best mobile in budget,Jan 2026,Pune District,Positive,1.0,Positive,0.6369,POSITIVE,0.9990185499191284
+5,Must buy!,As expected Ashis kumar Roy,Jan 2026,Dhanyakuria,Negative,-0.1,Neutral,0.0,POSITIVE,0.8686022758483887
+5,Highly recommended,A very good and wonderful product i received mohit awana,Dec 2025,Noida,Positive,0.955,Positive,0.7996,POSITIVE,0.9998799562454224
+5,Great product,Perfect phone best choice,Dec 2025,Pali,Positive,1.0,Positive,0.836,POSITIVE,0.9995201826095581
+5,Must buy!,Very nice iPhone and in brand new quality.,Dec 2025,Kangra District,Positive,0.4581818181818182,Positive,0.4754,POSITIVE,0.999871015548706
+5,Terrific,Genuine product Varun J Thalapaneni,Dec 2025,Delhi Division,Positive,0.4,Neutral,0.0,POSITIVE,0.9994074106216431
+3,Decent product,Good but not good as s24,Dec 2025,Canacona,Positive,0.175,Negative,-0.2867,NEGATIVE,0.9659783244132996
+4,Good quality product,Happy with the new update iphone16 Abhijeet wankar,Dec 2025,Bharuch,Positive,0.4681818181818182,Positive,0.5719,POSITIVE,0.9996258020401001
+5,Mind-blowing purchase,Camera is awesome Except battery backup everything is,Dec 2025,Silchar,Positive,1.0,Positive,0.6249,POSITIVE,0.9994376301765442
+5,Worth every penny,Nice product Abimanyu 7,Dec 2025,Paramathi,Positive,0.6,Positive,0.4215,POSITIVE,0.9990062117576599
+5,Super!,Thanks for the phone superb speed and good packaging sagar kambli,Sep 2025,Thane,Positive,0.6333333333333333,Positive,0.872,POSITIVE,0.9997541308403015
+5,Just wow!,Got in budget price in sale Till now no issue,Dec 2025,Noida,Neutral,0.0,Negative,-0.296,NEGATIVE,0.977093517780304
+5,Terrific purchase,I m so happy with,Dec 2025,Dinanagar,Positive,0.8,Positive,0.6115,POSITIVE,0.9998747110366821
+4,Nice product,Nothing to newly about apple pintu maiti,Dec 2025,Thane,Positive,0.13636363636363635,Neutral,0.0,NEGATIVE,0.9972057938575745
+3,Camera 310,"Battery 610 Display 710 Audio 810 Dont buy for camera Waste of money, go with samsung s24 ultras25 ultra .",Dec 2025,Surajgarh,Negative,-0.2,Negative,-0.4215,NEGATIVE,0.9899907112121582
+5,Highly recommended,Nothing to say Just I loved,Dec 2025,Chennai,Positive,0.7,Positive,0.5994,POSITIVE,0.9996445178985596
+1,Hated it!,Phone is good but delivery was worst that i have ever experienced with any e-com platform,Dec 2025,Kanpur,Positive,0.16666666666666666,Negative,-0.6908,NEGATIVE,0.998239278793335
+5,Perfect product!,Apple always good no need any special rating Tarlok singh,Dec 2025,Mallanwala Khass,Positive,0.5285714285714286,Positive,0.5267,POSITIVE,0.9973318576812744
+5,Wonderful,Love it my first i,Dec 2025,Ranchi,Positive,0.375,Positive,0.6369,POSITIVE,0.9998781681060791
+5,Excellent,Best camera quality phone,Dec 2025,Kota,Positive,1.0,Positive,0.6369,POSITIVE,0.9996455907821655
+5,Excellent,This phone is superb everything is perfect and flawless and the only problem with is phone is battery nothing else .,Dec 2025,Varanasi,Positive,0.75,Positive,0.8555,POSITIVE,0.9972364902496338
+5,Wonderful,awesome azepal Gill,Dec 2025,Firozpur,Positive,1.0,Positive,0.6249,POSITIVE,0.9998397827148438
+5,Mind-blowing purchase,Satisfied with product,Dec 2025,Jagdishpur,Positive,0.5,Positive,0.4215,POSITIVE,0.9995802044868469
+4,Wonderful,this price Mr. Manek,Dec 2025,Jamnagar,Neutral,0.0,Neutral,0.0,POSITIVE,0.9991746544837952
+5,Wonderful,Good work mayur Ambilkar,Dec 2025,Chandrapur,Positive,0.7,Positive,0.4404,POSITIVE,0.9997581839561462
+4,Value-for-money,Good ghjdff do hbcxb bcc fh Sanjay saran,Dec 2025,Sardarshahar,Positive,0.7,Positive,0.4404,POSITIVE,0.997761607170105
+5,Perfect product!,I like this phone very much Gagan soni,Dec 2025,Rawatsar,Positive,0.26,Positive,0.3612,POSITIVE,0.9984322190284729
+5,Must buy!,such a great experience with iphone16 and excellent camera,Dec 2025,Prayagraj,Positive,0.6,Positive,0.8316,POSITIVE,0.9998152852058411
+5,Must buy!,best phone for gadget enthusiasts camera is highlight,Dec 2025,Hyderabad,Positive,1.0,Positive,0.8402,POSITIVE,0.9979488253593445
+5,Just wow!,Excellent shubham khokade,Dec 2025,Pune Division,Positive,1.0,Positive,0.5719,POSITIVE,0.9997387528419495
+5,Excellent,Super experienced Milan,Dec 2025,New Delhi,Positive,0.5666666666666667,Positive,0.5994,POSITIVE,0.9983525276184082
+5,Mind-blowing purchase,"Fabulous ,great camera ,design yogesh more",Dec 2025,Nashik,Positive,0.5666666666666668,Positive,0.8176,POSITIVE,0.9998753070831299
+5,Worth every penny,"I must say this phone was really Amazing and captured the high quality of pics, specifically the portrait shots are really nice same in the case of videos as well. With good details and battery backup is also fine after using continuously for around 7 to 8 hrs. You can definitely go for it.",Sep 2025,Lucknow,Positive,0.3538095238095238,Positive,0.9402,POSITIVE,0.9990641474723816
+5,Great product,"Ive been using it since October 24 till now....and its so amazing to use it. Performance is too good. And coming about the camera , like I cant explain my work. Overall its outstanding to use it so I would tell you people you guys must buy it.",Dec 2025,Chandannagar,Positive,0.45,Positive,0.9356,POSITIVE,0.9996975660324097
+4,Pretty good,Good product with light in weight,Dec 2025,Indore,Positive,0.55,Positive,0.4404,POSITIVE,0.999757707118988
+5,Must buy!,Outstanding performance and awesome camera khusanavaz shekh,Dec 2025,Varanasi,Positive,0.75,Positive,0.8442,POSITIVE,0.9998695850372314
+5,Awesome,Allrounder phone,Dec 2025,Dhaka,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9868550300598145
+5,Classy product,First apple phone I ever experienced and it makes me wow,Dec 2025,,Positive,0.38333333333333336,Positive,0.5859,POSITIVE,0.9997850060462952
+5,Great product,backup is good as compared with i phone 15,Dec 2025,Ahmedabad,Positive,0.7,Positive,0.4404,POSITIVE,0.9990493655204773
+5,Brilliant,Good pr Ramesh kumar,Dec 2025,Hisar Division,Positive,0.7,Positive,0.4404,POSITIVE,0.9998238682746887
+4,Worth the money,"Nice product, but the delivery was late.",Dec 2025,Nashik Division,Positive,0.15,Positive,0.2263,NEGATIVE,0.9885836839675903
+5,Classy product,Excellent one m m,Dec 2025,Kozhikode,Positive,1.0,Positive,0.5719,POSITIVE,0.9998507499694824
+5,Terrific,Apple phones are always market leader,Dec 2025,Greater Noida,Neutral,0.0,Neutral,0.0,POSITIVE,0.9955182671546936
+5,Highly recommended,"Product is very good, I like it, value for money",Jan 2026,Raipur Domana,Positive,0.9099999999999999,Positive,0.8111,POSITIVE,0.9998784065246582
+5,Excellent,iPhone need no praise. Amazing product.,Dec 2025,Gurgaon,Positive,0.6000000000000001,Positive,0.7351,POSITIVE,0.9991849064826965
+5,Must buy!,It is a very good mobile,Dec 2025,Bareilly,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998517036437988
+5,Fabulous!,Everyone know what iphone is amit chhikara,Aug 2025,New Delhi,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9697471857070923
+5,Fabulous!,Phone is good but networking is not good Ajay kumar Giri,Dec 2025,Jagdalpur,Positive,0.175,Positive,0.7003,NEGATIVE,0.9966551065444946
+5,Brilliant,Original product received,Jan 2026,Noida,Positive,0.375,Positive,0.3182,POSITIVE,0.999774158000946
+5,Classy product,"The iPhone 16 is a fantastic, complete package, especially in the sophisticated Black finish. It brings the power, key photographic features, and modern interactive elements previously exclusive to the Pro line to the standard model.",Dec 2025,Dynamic Island,Positive,0.09629629629629631,Positive,0.8387,POSITIVE,0.9998296499252319
+3,Decent product,Not superb Ok ok gadgets Amit kumar Amit kumar,Nov 2025,Faridabad,Positive,0.16666666666666666,Negative,-0.7244,NEGATIVE,0.9984410405158997
+3,Decent product,Mostly overheated problems Chandan,Dec 2025,Jammu,Positive,0.5,Negative,-0.4019,NEGATIVE,0.9983376264572144
+5,Must buy!,Amazing phone os is so smooth and the camera is superb,Dec 2025,Gwalior Division,Positive,0.6666666666666666,Positive,0.836,POSITIVE,0.9998281002044678
+4,Value-for-money,"Received in good condition, checked the authenticity seems like fine.",Dec 2025,Gakulpur,Positive,0.5583333333333333,Positive,0.7351,POSITIVE,0.9978030323982239
+5,Terrific purchase,Just wow...obviously coz too much of expensive..,Nov 2025,Bhubaneswar,Negative,-0.5,Neutral,0.0,NEGATIVE,0.9975447058677673
+5,Wonderful,"My 1st I phone, absolutely loving it , thanks to Flipkart for genuine product",Dec 2025,Hoskote,Positive,0.4000000000000001,Positive,0.8104,POSITIVE,0.9998737573623657
+5,Fabulous!,Excellent product go for it,Aug 2025,New Delhi,Positive,1.0,Positive,0.5719,POSITIVE,0.9998692274093628
+5,Terrific purchase,Superb phone for the price range and love all the features.,Aug 2025,Bangalore,Positive,0.75,Positive,0.8519,POSITIVE,0.9998542070388794
+5,Mind-blowing purchase,Worth it. Shreehari S,Dec 2025,Bangalore,Positive,0.3,Positive,0.2263,POSITIVE,0.9998544454574585
+5,Simply awesome,Very nice mahesh varma,Dec 2025,Nashik Division,Positive,0.78,Positive,0.4754,POSITIVE,0.9998164772987366
+4,Pretty good,Outstanding performance hemant kumar,Dec 2025,Gurgaon Division,Positive,0.5,Positive,0.6124,POSITIVE,0.9998476505279541
+5,Terrific,Awesome.. Juned M,Dec 2025,Amreli,Positive,1.0,Neutral,0.0,POSITIVE,0.9998414516448975
+5,Best in the market!,16 series is best,Dec 2025,Kota,Positive,1.0,Positive,0.6369,POSITIVE,0.9996922016143799
+4,Good choice,First iPhone quite impressive performance,Dec 2025,Meerut Division,Positive,0.625,Positive,0.5563,POSITIVE,0.9997429251670837
+5,Worth every penny,"Internet speed is not good, only videos are being made very easily and the quality is also Good, the rest of everything is very normal",Dec 2025,Konkan Division,Positive,0.22166666666666668,Positive,0.4917,POSITIVE,0.985124945640564
+4,Wonderful,Best phone everything is good,Jan 2026,Kamrup,Positive,0.85,Positive,0.7964,POSITIVE,0.9997455477714539
+4,Worth the money,Phone is good but packing is very bed BoOm ShiVa,Nov 2025,Nurpur,Positive,0.44999999999999996,Positive,0.2382,POSITIVE,0.8642601370811462
+5,Perfect product!,Battery good rest everything awesome,Nov 2025,Palia Kalan,Positive,0.85,Positive,0.7906,POSITIVE,0.9996073842048645
+5,Just wow!,Buying first time I had a great experience. Thank you,Jan 2026,New Delhi,Positive,0.525,Positive,0.765,POSITIVE,0.9998750686645508
+4,Good choice,Osm phone but battery backup not good,Jan 2026,New Delhi,Negative,-0.35,Negative,-0.4782,NEGATIVE,0.9993509650230408
+5,Must buy!,I like iphone 15 design........,Nov 2025,Rourkela,Neutral,0.0,Positive,0.3612,POSITIVE,0.991834282875061
+5,Terrific purchase,Apple always provides a good product. But now i guess they need innovation.,Jan 2026,Gurugram,Positive,0.7,Positive,0.6542,NEGATIVE,0.9392556548118591
+5,Worth every penny,Great purchase subhash gole,Nov 2025,Pimpri Chinchwad,Positive,0.8,Positive,0.6249,POSITIVE,0.997191846370697
+5,Best in the market!,Product is very good,Nov 2025,Jamnagar,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.999868631362915
+5,Perfect product!,pretty happy with this purchase,Nov 2025,Jamshedpur,Positive,0.525,Positive,0.7845,POSITIVE,0.9998683929443359
+5,Simply awesome,Good product FlipkartDesh CustomerRaj,Nov 2025,Barotiwala Industrial Area,Positive,0.7,Positive,0.4404,POSITIVE,0.9988296627998352
+4,Good quality product,Excellent sonu saraswat,Nov 2025,Gurugram,Positive,1.0,Positive,0.5719,POSITIVE,0.9998107552528381
+5,Simply awesome,Great performance phone,Nov 2025,Bijepur,Positive,0.8,Positive,0.6249,POSITIVE,0.9997320771217346
+4,Worth the money,Better quealty is,Jan 2026,Jaunpur,Positive,0.5,Positive,0.4404,NEGATIVE,0.851694643497467
+5,Great product,kuraku prathap Kumar,Nov 2025,Kurnool,Neutral,0.0,Neutral,0.0,POSITIVE,0.9897297620773315
+5,Just wow!,Best phone and best price i love it K l R jp t,Nov 2025,Haridwar,Positive,0.8333333333333334,Positive,0.9371,POSITIVE,0.9996217489242554
+5,Simply awesome,Superb iSMART MANi,Nov 2025,,Positive,1.0,Positive,0.6249,POSITIVE,0.9997649788856506
+5,Wonderful,It is very nice and its material is also very soft.I tried it and I liked it very much.,Jan 2026,Surat,Positive,0.46,Positive,0.7089,POSITIVE,0.9998537302017212
+5,Good choice,Thank you flipkart love it this iPhone 16,Nov 2025,Bettiah,Positive,0.5,Positive,0.7717,POSITIVE,0.999805748462677
+5,Just wow!,Nice compact phone with powerful specs that nobody can beat,Nov 2025,Mahoba,Positive,0.44999999999999996,Positive,0.6808,POSITIVE,0.9993600249290466
+5,Highly recommended,Good job flipkart,Nov 2025,Gurugram,Positive,0.7,Positive,0.4404,POSITIVE,0.9998291730880737
+5,Must buy!,Best price best phone,Nov 2025,Basti,Positive,1.0,Positive,0.8555,POSITIVE,0.9972105622291565
+5,Fabulous!,Overall good phone,Nov 2025,Meerut Division,Positive,0.35,Positive,0.4404,POSITIVE,0.999849796295166
+5,Excellent,I love this Thudum bharath Bharath,Jan 2026,Hyderabad,Positive,0.5,Positive,0.6369,POSITIVE,0.9991523027420044
+5,Perfect product!,very nice ekta saini,Jan 2026,Ambala District,Positive,0.78,Positive,0.4754,POSITIVE,0.9998250603675842
+5,Excellent,Very nice love it,Nov 2025,Shahkot,Positive,0.64,Positive,0.8211,POSITIVE,0.9998738765716553
+5,Mind-blowing purchase,Very impressive S,Jan 2026,Delhi Division,Positive,1.0,Positive,0.5563,POSITIVE,0.999863862991333
+1,Very poor,"The seller is not reliable. I got an overheating product and the Flipkart support team are just wasting my time. they wont help you if you are stuck with such an issue they will just waste your time, so if u faced such an issue. just visit the apple store or service center directly. so dont waste your time and even if its marginally expensive . please buy it . I think Ill not buy things .",Nov 2025,Pune Division,Negative,-0.175,Negative,-0.8637,NEGATIVE,0.9998117089271545
+5,Brilliant,This product is always awesome,Nov 2025,Varanasi,Positive,1.0,Positive,0.6249,POSITIVE,0.999882698059082
+4,Good quality product,Good phone i like it,Jan 2026,Gurgaon Division,Positive,0.7,Positive,0.6597,POSITIVE,0.9998544454574585
+5,Best in the market!,Kottana suresh Suresh,Nov 2025,Chennai,Neutral,0.0,Neutral,0.0,POSITIVE,0.9989067316055298
+5,Awesome,Very good sudesh kumar,Nov 2025,Sirsa,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998462200164795
+5,Classy product,quality and performance but battery backup is not better,Jan 2026,Manmad,Negative,-0.25,Negative,-0.4782,NEGATIVE,0.9879868626594543
+5,Worth every penny,"Best phone ever, camera is excellent!",Nov 2025,Kalyan,Positive,1.0,Positive,0.8478,POSITIVE,0.9998601675033569
+4,Nice product,Special thanks flipkart,Jan 2026,Maunath Bhan,Positive,0.2785714285714286,Positive,0.6808,POSITIVE,0.9998111128807068
+5,Perfect product!,Nice product and valuable money,Nov 2025,Delhi Division,Positive,0.6,Positive,0.7096,POSITIVE,0.9998703002929688
+5,A Worthy package for the price,"Excellent device for the price. The camera and Speakers are something that I like the most. Performance is too good, never ever lags on anything, run everything easily.",Nov 2025,Prayagraj,Positive,0.6583333333333334,Positive,0.912,POSITIVE,0.999549925327301
+1,Dont waste your money,All problems product not comfart not working C program,Jan 2026,Roorkee,Neutral,0.0,Negative,-0.4019,NEGATIVE,0.9990161657333374
+5,Highly recommended,Great iPhone16 performance and happy with flipcart service,Nov 2025,Delhi Division,Positive,0.8,Positive,0.8316,POSITIVE,0.9997889399528503
+4,Wonderful,Good performance,Nov 2025,Tiruppur,Positive,0.7,Positive,0.4404,POSITIVE,0.9998561143875122
+3,Just okay,Good but not too,Jan 2026,Nayagarh,Positive,0.7,Positive,0.2382,POSITIVE,0.9988407492637634
+5,Fabulous!,Everthing is goo,Nov 2025,Jaipur Division,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9986498951911926
+4,Wonderful,Good camera and. Great phone,Nov 2025,Talegaon,Positive,0.75,Positive,0.7906,POSITIVE,0.999862790107727
+5,Just wow!,Istayak ahmad Istayak,Nov 2025,Orai,Neutral,0.0,Neutral,0.0,POSITIVE,0.9375747442245483
+4,Wonderful,"Product was nice ,good for handling.",Jan 2026,Nagpur,Positive,0.6499999999999999,Positive,0.6908,POSITIVE,0.9998037219047546
+5,Great product,Nice iPhone ashish yogi,Nov 2025,Kuchaman City,Positive,0.6,Positive,0.4215,POSITIVE,0.999222993850708
+1,Did not meet expectations,Heating very much,Nov 2025,Ranchi,Positive,0.26,Neutral,0.0,POSITIVE,0.9989284873008728
+4,Wonderful,Love this phone while using smooth and sexy,Jan 2026,Pune Division,Positive,0.4666666666666666,Positive,0.8225,POSITIVE,0.9998741149902344
+5,Fabulous!,Wonderful sharp sharp,Jan 2026,Chennai,Positive,0.25,Positive,0.5719,POSITIVE,0.9998719692230225
+5,Fabulous!,Awesome camera ashutosh kumar,Jan 2026,Ambedkar Nagar,Positive,1.0,Positive,0.6249,POSITIVE,0.9998583793640137
+5,Terrific purchase,Very good delivery tq for giving good emi and everything vijay vasan,Jan 2026,Chennai,Positive,0.8049999999999999,Positive,0.831,POSITIVE,0.9997860789299011
+5,Best in the market!,Legit seller Got a great deal Adnan K,Nov 2025,Siliguri,Positive,0.8,Positive,0.6249,POSITIVE,0.9985264539718628
+5,Wonderful,Amazing product and features,Nov 2025,Kanpur,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998842477798462
+5,Terrific,Very good experience,Jan 2026,Gurugram,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998730421066284
+5,Excellent,Everything good. But. Battery performance not good,Jan 2026,Bangalore Division,Positive,0.175,Positive,0.7003,NEGATIVE,0.9905917048454285
+5,Awesome,Cemera quality good but videos quality excellent performance excellent display good M R ???,Jan 2026,Konkan Division,Positive,0.8500000000000001,Positive,0.9548,POSITIVE,0.9976104497909546
+5,Mind-blowing purchase,All everything good,Nov 2025,Gauripur,Positive,0.7,Positive,0.4404,POSITIVE,0.9998608827590942
+1,Absolute rubbish!,Not good...only status symbol phone....not value for money....no ....,Nov 2025,Udaipur,Neutral,0.0,Positive,0.34,NEGATIVE,0.9997865557670593
+5,Classy product,I like it woww lovely phone umakanta athokpam,Nov 2025,Dehradun,Positive,0.5,Positive,0.743,POSITIVE,0.9992832541465759
+5,Great product,Best phone Best phone,Nov 2025,Valsad,Positive,1.0,Positive,0.8555,POSITIVE,0.9985365867614746
+5,Perfect product!,Bestest .... very happy,Nov 2025,Koch Bihar,Positive,1.0,Positive,0.6115,POSITIVE,0.9998800754547119
+5,Awesome,Good design danish pasha,Nov 2025,Rampur,Positive,0.7,Positive,0.4404,POSITIVE,0.9998339414596558
+5,Fabulous!,Amazing professional model kumar Sahani,Dec 2025,Purba Champaran District,Positive,0.35000000000000003,Positive,0.5859,POSITIVE,0.9998124241828918
+1,Worthless,Camera quality is very poor like iphone xr,Nov 2025,Sivasagar District,Negative,-0.52,Negative,-0.1567,NEGATIVE,0.9997536540031433
+5,Wonderful,"Excellent package and delivery , and mobile is light weight, overall camera good but front is avg in low light, and battery is ok...Design is love it hate it kind...but it is premium... Shadow_ Shyam",Nov 2025,Vishakhapatnam,Positive,0.2749999999999999,Positive,0.34,POSITIVE,0.9992857575416565
+5,Perfect product!,"camera,display awesome",Nov 2025,Thiruvarur,Positive,1.0,Positive,0.6249,POSITIVE,0.9998724460601807
+5,Mind-blowing purchase,Great phone but the battery life is quite low,Dec 2025,Bhubaneswar,Positive,0.4,Negative,-0.138,NEGATIVE,0.9953795671463013
+5,Fabulous!,Loved the purchase came on time and budget model make a purchase,Nov 2025,Pune Division,Positive,0.7,Positive,0.5994,POSITIVE,0.9995423555374146
+5,Terrific purchase,Very good product !!,Dec 2025,Lucknow,Positive,1.0,Positive,0.5827,POSITIVE,0.9998756647109985
+5,Perfect product!,My first iPhone but good decision for me I really love this phone,Nov 2025,Azamgarh Division,Positive,0.48333333333333334,Positive,0.902,POSITIVE,0.9996752738952637
+2,Highly recommended,All ok iPhone 16 128,Nov 2025,Vijapura,Positive,0.5,Positive,0.296,POSITIVE,0.9963763356208801
+5,Best in the market!,Everything is good,Nov 2025,Kharar,Positive,0.7,Positive,0.4404,POSITIVE,0.9998520612716675
+5,Super!,Very nice better battery life better performance lovely design with iOS 18chip,Nov 2025,Aizawl,Positive,0.5700000000000001,Positive,0.9224,POSITIVE,0.9953935146331787
+5,Worth every penny,satisfied with product and the delivery thing with flipkart,Nov 2025,Gurugram,Positive,0.5,Positive,0.4215,POSITIVE,0.9990386962890625
+5,Fabulous!,Now samsung has good camera,Nov 2025,Kalyan,Positive,0.7,Positive,0.4404,POSITIVE,0.9995935559272766
+5,Mind-blowing purchase,Everything is awesome except battery,Nov 2025,Mira Bhayandar,Positive,1.0,Positive,0.6249,POSITIVE,0.9998530149459839
+5,Highly recommended,better backup super camera,Nov 2025,Barela,Positive,0.41666666666666663,Positive,0.7783,NEGATIVE,0.803676962852478
+5,Simply awesome,Fantastic performance and look.,Nov 2025,Jena,Positive,0.4,Positive,0.5574,POSITIVE,0.9998831748962402
+5,Super!,Overall good deal on Flipkart..Best dealm,Nov 2025,Shirpur,Positive,0.35,Positive,0.4404,POSITIVE,0.9998385906219482
+5,Super!,This is amazing Vishwaraj singh Yadav,Nov 2025,New Delhi,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998574256896973
+5,Highly recommended,First iphone which is awesome jyotirmay pandit,Nov 2025,Baleshwar,Positive,0.625,Positive,0.6249,POSITIVE,0.999503493309021
+5,Great product,My second iPhone which I purchased online. Totally satisfied,Nov 2025,Moradabad,Positive,0.25,Positive,0.4754,POSITIVE,0.9994586110115051
+5,Simply awesome,Very good product,Nov 2025,Udhampur,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998735189437866
+1,Hated it!,Display not working,Nov 2025,Bangalore Division,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9997054934501648
+5,Just wow!,Best display quality and amazing battery quality,Dec 2025,,Positive,0.8,Positive,0.8402,POSITIVE,0.9998513460159302
+5,Must buy!,produce RaviNdEr,Oct 2025,Nurpur,Neutral,0.0,Neutral,0.0,POSITIVE,0.8602342009544373
+5,Best in the market!,Great product loved it!! P,Nov 2025,Bilaspur,Positive,0.9,Positive,0.8619,POSITIVE,0.9998576641082764
+5,Awesome,O s m means osmm this is really amazing after using this had forgot my last devide,Dec 2025,Gautam Buddha Nagar District,Positive,0.30000000000000004,Positive,0.624,POSITIVE,0.9996104836463928
+5,Super!,Delivery boy is very good,Nov 2025,Hisar Division,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998633861541748
+3,Does the job,Very nice phone... Performance and display like it..,Nov 2025,Kachchh District,Positive,0.78,Positive,0.6801,POSITIVE,0.9998137354850769
+5,Awesome,Awesome with some new features,Jan 2026,Madhyamgram,Positive,0.5681818181818181,Positive,0.6249,POSITIVE,0.9998737573623657
+5,Terrific,Can say just... awesome,Nov 2025,Prayagraj Division,Positive,1.0,Positive,0.6249,POSITIVE,0.9998564720153809
+1,Useless product,Worst one waste of money Android much better Madurai queen,Jan 2026,Madurai,Negative,-0.2333333333333333,Negative,-0.6124,NEGATIVE,0.9997995495796204
+4,Worth the money,Outstanding camera and phone,Nov 2025,Hoshangabad,Positive,0.5,Positive,0.6124,POSITIVE,0.9998469352722168
+5,Highly recommended,Good very nice Diksha kamal,Nov 2025,Faridabad Division,Positive,0.74,Positive,0.7178,POSITIVE,0.9998462200164795
+5,Mind-blowing purchase,Good product received! Happy with the purchase,Nov 2025,Bengaluru,Positive,0.8375,Positive,0.784,POSITIVE,0.9998749494552612
+5,Best in the market!,My first iPhone experience syeda rabiya,Nov 2025,Malavalli,Positive,0.25,Neutral,0.0,POSITIVE,0.5000019669532776
+4,Good quality product,Best deal Chetana patil,Nov 2025,Konkan Division,Positive,1.0,Positive,0.6369,POSITIVE,0.9990870952606201
+5,Fabulous!,Good thisi All ways Patel,Dec 2025,Mancherial,Positive,0.7,Positive,0.4404,POSITIVE,0.9998446702957153
+5,Simply awesome,All is good as other iPhones,Nov 2025,Meerut Division,Positive,0.2875,Positive,0.4404,POSITIVE,0.999808132648468
+5,Highly recommended,Everthing is awesome.. worth the product,Nov 2025,Roorkee,Positive,0.65,Positive,0.2263,POSITIVE,0.9998806715011597
+5,Super!,Nice mobile but 60hz wrost as compared to other smartphones,Nov 2025,,Positive,0.2375,Positive,0.2263,NEGATIVE,0.9833682179450989
+5,Mind-blowing purchase,"Awesome performed iphone , must buy it",Jan 2026,Begusarai,Positive,1.0,Positive,0.6249,POSITIVE,0.9997420907020569
+5,Best in the market!,Original product and Best deal during,Dec 2025,Nandivaram Guduvancheri,Positive,0.6875,Positive,0.7579,POSITIVE,0.9997348189353943
+1,Very poor,"Iphones should not be taken online even if you are getting a huge discount because they come with so many conditions which we dont know or ignore while buying the Mobiles, which becomes a headache after the buying and if you are facing any issues.",Jan 2026,Jammu,Positive,0.44999999999999996,Positive,0.5283,NEGATIVE,0.9992977380752563
+5,Super!,Its best phone at this price I bought it in 55k good to go . Mukul khosla,Nov 2025,Rupnagar,Positive,0.85,Positive,0.7964,POSITIVE,0.9277777075767517
+5,Just wow!,Best quality and trustable seller,Dec 2025,Ahmedabad,Positive,1.0,Positive,0.8176,POSITIVE,0.9998514652252197
+4,Good choice,Excellent harbansh Singh,Dec 2025,Gurugram,Positive,1.0,Positive,0.5719,POSITIVE,0.9997605681419373
+1,Very poor,Dont buy this model,Dec 2025,New Delhi,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9948850274085999
+5,Just wow!,Veri nice for video and blog Chandan devnath,Jan 2026,Purnia,Positive,0.6,Positive,0.4215,POSITIVE,0.9621219038963318
+5,Classy product,Overall performance,Jan 2026,Fatehabad,Neutral,0.0,Neutral,0.0,POSITIVE,0.9997573494911194
+4,Worth the money,"Product is super as I feel all are excellent especially Canara quality, visual and speed. Only I feel over heating during continuous operation for more than hours or taking photos.",Oct 2025,Bengaluru,Positive,0.3055555555555555,Positive,0.8225,POSITIVE,0.9897341728210449
+2,Expected a better product,Very poor camera..fully dissatisfied with the camera performance..waste my money,Jan 2026,Byasanagar,Negative,-0.52,Negative,-0.7397,NEGATIVE,0.9997995495796204
+5,Just wow!,Good one i phn is next level phone.,Nov 2025,Panchkula District,Positive,0.35,Positive,0.4404,NEGATIVE,0.9346311688423157
+2,Expected a better product,This iPhone 16 is not new this is reassembled in India,Oct 2025,Karnal,Negative,-0.06818181818181818,Neutral,0.0,NEGATIVE,0.9989843964576721
+4,Good quality product,SonalDixit SonalDixit,Nov 2025,Babarpur Ajitmal,Neutral,0.0,Neutral,0.0,NEGATIVE,0.8004063367843628
+1,Useless product,Not working properly,Nov 2025,Bangalore,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9997847676277161
+5,Awesome,Very very Petta jeeva Customer,Nov 2025,Tirukalukundram,Positive,0.26,Neutral,0.0,POSITIVE,0.9857089519500732
+5,Terrific purchase,Atul pratap Singh,Nov 2025,Garhwal Division,Neutral,0.0,Neutral,0.0,POSITIVE,0.9812189936637878
+5,Perfect product!,"Very nice zooming and pics, battery backup also nice",Nov 2025,Indore,Positive,0.69,Positive,0.734,POSITIVE,0.9996922016143799
+1,Worthless,"The phone is switching off frequently just after buying it, dont buy i phone 16, the condition is really bad",Nov 2025,New Delhi,Negative,-0.29999999999999993,Negative,-0.5849,NEGATIVE,0.9996292591094971
+5,Best in the market!,best product ever,Nov 2025,Naraingarh,Positive,1.0,Positive,0.6369,POSITIVE,0.9998482465744019
+5,Highly recommended,Vry good performance,Nov 2025,Moradabad Division,Positive,0.7,Positive,0.4404,POSITIVE,0.9998451471328735
+5,Just wow!,Compact phone.A18 bionic chip is superb,Nov 2025,Badamba,Positive,1.0,Positive,0.6249,POSITIVE,0.9992635846138
+5,Must buy!,Good but battery life much better than,Nov 2025,Katihar District,Positive,0.6,Positive,0.7003,POSITIVE,0.9975537657737732
+5,Wonderful,Thank you Flipkart good phone,Nov 2025,New Delhi,Positive,0.7,Positive,0.6597,POSITIVE,0.999819815158844
+5,Must buy!,This phone is better than other phone because they give u best quality all thing just example camera and display Singh,Oct 2025,Basti,Positive,0.4583333333333333,Positive,0.7964,POSITIVE,0.9975816011428833
+1,Worst experience ever!,Very poor quality display pradeep tiwari,Nov 2025,Surat,Negative,-0.52,Negative,-0.5256,NEGATIVE,0.9997386336326599
+5,Highly recommended,Amazing product at a good rate and fastest and secure delivery. Shyamjith M,Nov 2025,Kuruvattur,Positive,0.5666666666666668,Positive,0.8442,POSITIVE,0.999876856803894
+5,Excellent,The third one I am totally satisfied with the product ... Absolute bonkers gaming performance the screen size is a bit of an issue for me as it is too small and to handle that I already had a iPhone 15 plus and the in hand feel the overall quality of the product is top notch,Aug 2025,New Delhi,Positive,0.15833333333333333,Positive,0.796,NEGATIVE,0.8007246851921082
+5,Terrific purchase,Great compact phone. Nice photos and nice fluid software experience.,Nov 2025,New Delhi,Positive,0.5,Positive,0.8658,POSITIVE,0.9998315572738647
+5,Simply awesome,Very very good jagdish Kumar,Jan 2026,Faridabad Division,Positive,0.9099999999999999,Positive,0.5379,POSITIVE,0.9998579025268555
+5,Good quality product,Super performance and display,Nov 2025,Biharsharif,Positive,0.3333333333333333,Positive,0.5994,POSITIVE,0.999450147151947
+1,Very poor,Power shock in power button during charging. And phone heat up in pocket Raghu P O,Nov 2025,Bengaluru,Neutral,0.0,Negative,-0.3818,NEGATIVE,0.9255861639976501
+5,Simply awesome,Image quality is awesome,Nov 2025,Hyderabad,Positive,1.0,Positive,0.6249,POSITIVE,0.9998788833618164
+5,Must buy!,Seamless user experience and cameras are quite impressive,Nov 2025,Kasganj,Positive,0.55,Positive,0.5563,POSITIVE,0.999863862991333
+5,Terrific,Value of money shubham vijoy,Nov 2025,New Delhi,Neutral,0.0,Positive,0.34,POSITIVE,0.9904279708862305
+5,Fabulous!,Superb experience with iPhone,Nov 2025,Hyderabad,Positive,1.0,Positive,0.6249,POSITIVE,0.9998279809951782
+5,Must buy!,Nice mobile phone,Nov 2025,Ganaur,Positive,0.6,Positive,0.4215,POSITIVE,0.9997631907463074
+4,Delightful,Glad I ordered this in . Thanks flipkart,Nov 2025,Ghaziabad,Positive,0.35,Positive,0.7096,POSITIVE,0.9996720552444458
+5,Awesome,Very good mobile,Nov 2025,Bhiwani,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998651742935181
+4,cost,"Good product but major cost is brand compared to product ,otherwise similar performing 30 cheaper , Anyway purchased for",Nov 2025,Anyway,Positive,0.25416666666666665,Positive,0.2382,NEGATIVE,0.6765089631080627
+5,Fabulous!,Outstanding performance and best-best condition,Jan 2026,Sagar District,Positive,0.5,Positive,0.6124,POSITIVE,0.9998289346694946
+5,Must buy!,I really loved it.So happy that I own it . Kasiraj R,Jan 2026,Kochi,Positive,0.7000000000000001,Positive,0.8464,POSITIVE,0.9998852014541626
+5,Wonderful,Adorable produch love it,Nov 2025,Gurgaon Division,Positive,0.5,Positive,0.8126,POSITIVE,0.999858021736145
+5,Worth every penny,Good product Im happy,Nov 2025,Bilram,Positive,0.75,Positive,0.765,POSITIVE,0.9998691082000732
+3,Just okay,Disappointed with camera,Nov 2025,Kurduwadi,Negative,-0.75,Negative,-0.4767,NEGATIVE,0.9997658133506775
+3,Just okay,After using mobile its getting hot,Jan 2026,Bangalore,Positive,0.25,Neutral,0.0,NEGATIVE,0.985248863697052
+5,Brilliant,Battery dranage soon and front camera is not very good ...back camera amazing .. muneesh pandey pandey,Nov 2025,Bengaluru,Positive,0.16538461538461546,Positive,0.2908,NEGATIVE,0.999609649181366
+5,Fabulous!,"Awesome phone..., really apple makes the best phone and most secured also.",Nov 2025,Alwar,Positive,0.675,Positive,0.9061,POSITIVE,0.9998252987861633
+5,Terrific,Very good product,Jan 2026,Jhalawar District,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998735189437866
+5,Simply awesome,Amazing product quality,Nov 2025,Fatehabad,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998844861984253
+5,Terrific purchase,Good product Dilkesh meena,Jan 2026,Jaipur,Positive,0.7,Positive,0.4404,POSITIVE,0.9997907280921936
+5,Highly recommended,A cash on delivery. Delivery is late but its is in good quality,Nov 2025,Hamirpur,Positive,0.19999999999999998,Positive,0.5927,POSITIVE,0.9994877576828003
+5,Must buy!,Amazing experience my new I phone 16 super 200 worth at this price range,Aug 2025,Chennai,Positive,0.34242424242424246,Positive,0.8625,POSITIVE,0.9994673132896423
+4,Nice product,Apple should bring more innova,Nov 2025,Kolkata,Positive,0.5,Neutral,0.0,POSITIVE,0.9779119491577148
+5,Highly recommended,or Best service Open box delivery Harsh upadhyay,Nov 2025,Rajkot,Positive,0.26666666666666666,Positive,0.3182,POSITIVE,0.9881839752197266
+3,Just okay,Bettry condition is very poor,Nov 2025,Solan,Negative,-0.52,Negative,-0.5256,NEGATIVE,0.9997405409812927
+5,Just wow!,Loved it Vijay C,Nov 2025,Chennai,Positive,0.7,Positive,0.5994,POSITIVE,0.9998431205749512
+5,Mind-blowing purchase,Awesome. Worth every penny. Got it for a very reasonable price.,Aug 2025,Chennai,Positive,0.52,Positive,0.7184,POSITIVE,0.9997702240943909
+5,Wonderful,Value for money thank you flipkart,Nov 2025,Manmad,Neutral,0.0,Positive,0.5994,POSITIVE,0.999772846698761
+4,Good choice,Display 109 cameras 109 sound 1010 best performance top quality video thanks for apple,Nov 2025,Nadia District,Positive,0.525,Positive,0.836,POSITIVE,0.9991962313652039
+5,Terrific,Excellent device,Dec 2025,Patna,Positive,1.0,Positive,0.5719,POSITIVE,0.999854564666748
+5,Fabulous!,Camera good but battery not good,Nov 2025,Araria,Positive,0.175,Positive,0.7003,NEGATIVE,0.9679586291313171
+5,Perfect product!,Camera and performance is beast but you have to compromise with display quality .,Nov 2025,Bhopal,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9899242520332336
+5,Brilliant,Best big billion deal,Nov 2025,Jaunpur,Positive,0.5,Positive,0.6369,POSITIVE,0.9997963309288025
+1,Did not meet expectations,Bluetooth is not working ajit sharma,Aug 2025,Bengaluru,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9997356534004211
+5,Excellent,along with impressive camera quality.,Nov 2025,Presidency Division,Positive,1.0,Positive,0.5106,POSITIVE,0.9998838901519775
+5,Terrific,"Extremely marvellous product,best of all at such a price.",Nov 2025,Agra,Negative,-0.0625,Neutral,0.0,POSITIVE,0.9991452693939209
+5,Best in the market!,Amazing phone among all iPhone series specially in terms of battery and camera,Nov 2025,Aligarh,Positive,0.47857142857142865,Positive,0.5859,POSITIVE,0.9996578693389893
+5,Great product,Superb quality.. Easy to use.. Best camera.. Best quality product..,Nov 2025,Barjora,Positive,0.8583333333333334,Positive,0.9468,POSITIVE,0.9998412132263184
+5,Worth every penny,Phone is good rajat garg,Nov 2025,Hisar,Positive,0.7,Positive,0.4404,POSITIVE,0.9986579418182373
+5,Fabulous!,Cant be more than this performance.,Jan 2026,Hyderabad,Positive,0.5,Neutral,0.0,POSITIVE,0.7013487815856934
+5,Awesome,Best in class Ansar pathan,Nov 2025,Dewas,Positive,1.0,Positive,0.6369,POSITIVE,0.9997430443763733
+1,Waste of money!,Just a waste of money to buy such an overrated phone.,Nov 2025,Malerkotla,Negative,-0.1,Negative,-0.4215,NEGATIVE,0.9998093247413635
+5,Super!,Excellent performance,Nov 2025,Sikar,Positive,1.0,Positive,0.5719,POSITIVE,0.999862790107727
+5,Highly recommended,Best performance with best price.,Nov 2025,Kolkata,Positive,1.0,Positive,0.8555,POSITIVE,0.9996474981307983
+5,Worth every penny,Very good experience after android,Nov 2025,New Delhi,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998317956924438
+5,Great product,I got this phone during sale ..worth buying after switching to android one,Nov 2025,Koppal District,Neutral,0.0,Neutral,0.0,NEGATIVE,0.5677154064178467
+5,Simply awesome,Excellent product,Dec 2025,Lucknow Division,Positive,1.0,Positive,0.5719,POSITIVE,0.9998617172241211
+5,Mind-blowing purchase,All good thanks to flipkart dreams true,Nov 2025,Bhiwani,Positive,0.4166666666666667,Positive,0.8834,POSITIVE,0.9998719692230225
+4,Good choice,fine experience. kapil,Nov 2025,Delhi Division,Positive,0.4166666666666667,Positive,0.2023,POSITIVE,0.9998456239700317
+4,Wonderful,Good mobile Pandian .m,Dec 2025,Puducherry,Positive,0.7,Positive,0.4404,POSITIVE,0.9994404911994934
+4,Nice product,"I am using iphone 16 for some time but not completely mindsetup on this. Before this I am using 1. which he is still using. Iphone cameras colour is natural, display is good other wise my nothing Phone 1 is best. Garasiya",Nov 2025,Dungarpur District,Positive,0.3875,Positive,0.7716,POSITIVE,0.9924503564834595
+5,Highly recommended,Always love to buy i,Nov 2025,Mumbai,Positive,0.5,Positive,0.6369,POSITIVE,0.9998371601104736
+5,Classy product,Very nice product,Nov 2025,Devipatan Division,Positive,0.78,Positive,0.4754,POSITIVE,0.9998691082000732
+5,Terrific purchase,It is a really good product.Go for it.,Oct 2025,Gangtok,Positive,0.7,Positive,0.4927,POSITIVE,0.9998677968978882
+5,Highly recommended,Worthable.. Sachin R,Aug 2025,Kanchipuram,Neutral,0.0,Neutral,0.0,POSITIVE,0.9998213648796082
+5,Awesome,This rate is all this product,Nov 2025,Udaipur Division,Neutral,0.0,Neutral,0.0,NEGATIVE,0.6670329570770264
+5,Wonderful,Original phone best quality,Oct 2025,Sonipat District,Positive,0.6875,Positive,0.7579,POSITIVE,0.9985979199409485
+5,Perfect product!,Amazing product. Thanks flipkart,Nov 2025,Konkan Division,Positive,0.4,Positive,0.7717,POSITIVE,0.9998759031295776
+5,Simply awesome,Noice phone harshita pathak,Nov 2025,Bhagalpur,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9951547384262085
+5,Terrific,Excellent phone come with apple intelligent,Dec 2025,Sri Potti Sriramulu Nellore District,Positive,0.9,Positive,0.7717,POSITIVE,0.9981972575187683
+5,Excellent,Awesome phone one of the best purchase. Mr AnuRaG RaNa,Nov 2025,Mohali,Positive,1.0,Positive,0.8519,POSITIVE,0.9997667670249939
+5,Highly recommended,Worth it At best rate in,Nov 2025,Aurangabad,Positive,0.65,Positive,0.7269,POSITIVE,0.9998682737350464
+5,Fabulous!,Best product very use full for photographer and video grapher,Nov 2025,Anjar,Positive,0.5166666666666666,Positive,0.6369,POSITIVE,0.9959004521369934
+5,Classy product,Premium quality amazing,Nov 2025,Meerut Division,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998884201049805
+4,Good choice,Beutiful and very nice looking,Nov 2025,Ahmedabad,Positive,0.78,Positive,0.4754,POSITIVE,0.9998779296875
+5,Super!,Fantastic product,Nov 2025,Kolkata,Positive,0.4,Positive,0.5574,POSITIVE,0.9998769760131836
+4,Wonderful,Nice product BiTtU SiNgH,Dec 2025,Anwari,Positive,0.6,Positive,0.4215,POSITIVE,0.9993558526039124
+3,Decent product,Overheating i just downloaded 5 apps and its fkng heating like Im playing Heavy game on max graphics Im just downloading applications man whats there to overheat,Nov 2025,Patiala Division,Negative,-0.30000000000000004,Positive,0.5106,NEGATIVE,0.9991433620452881
+3,Decent product,Not value for now in present senerio samsung is better than a Apple shubham sharma,Dec 2025,Raya,Positive,0.25,Positive,0.2177,NEGATIVE,0.9938192963600159
+5,Super!,Nice camera somth operating Excellent phone in range,Nov 2025,Gajraula,Positive,0.8,Positive,0.7579,POSITIVE,0.9978941082954407
+5,Highly recommended,Value of money mayank bhamboo,Nov 2025,New Delhi,Neutral,0.0,Positive,0.34,POSITIVE,0.9784093499183655
+5,Perfect product!,Amazing color and design I jzt loved it!!!,Nov 2025,Bengaluru Rural District,Positive,0.8,Positive,0.8617,POSITIVE,0.9998877048492432
+5,Classy product,Good I like iphone,Nov 2025,,Positive,0.7,Positive,0.6597,POSITIVE,0.9998528957366943
+5,Classy product,Mindblowing features,Jul 2025,Kolkata,Neutral,0.0,Neutral,0.0,POSITIVE,0.9987152814865112
+5,Terrific purchase,Yaa its good but one thing is imbalance invoice No mail nothing Manasa,Nov 2025,Hyderabad,Positive,0.7,Negative,-0.2144,NEGATIVE,0.9947670698165894
+5,Wonderful,Very nice Product.Charger should be provided alongwith Apple I Phone 16which was not provided.,Nov 2025,Zirakpur,Positive,0.78,Positive,0.4754,POSITIVE,0.5781949162483215
+1,Not recommended at all,Camera quality is very poor however when I shoot video then it is little b,Dec 2025,Rohtas District,Negative,-0.35375,Negative,-0.6997,NEGATIVE,0.9996525049209595
+1,Horrible,Not good Asad firoz Shiekh,Nov 2025,Varanasi,Negative,-0.35,Negative,-0.3412,NEGATIVE,0.9997316002845764
+5,Worth every penny,I got genuine product. Thanks to the seller.,Nov 2025,Surat,Positive,0.30000000000000004,Positive,0.4404,POSITIVE,0.9998348951339722
+5,Terrific purchase,Best phone performance too good,Nov 2025,Biaora,Positive,0.85,Positive,0.7964,POSITIVE,0.9991598129272461
+5,Super!,Great camera and excellent performance. Built quality is amazing.,Nov 2025,Koppal,Positive,0.8000000000000002,Positive,0.9118,POSITIVE,0.9998855590820312
+5,Brilliant,First time I use iphone series . Happy to inform that its awesome picture quality is very nice . Light weighted. Compatibility also good . Totally worth it Go for it without any hesitation .,Nov 2025,Byasanagar,Positive,0.6042857142857142,Positive,0.9501,POSITIVE,0.9998573064804077
+5,Highly recommended,Good as expected,Dec 2025,Dhemaji,Positive,0.3,Positive,0.4404,POSITIVE,0.9998329877853394
+5,Excellent,Super qulaity like a showroom piece,Aug 2025,Kappalur Sidco Industrial Estate,Positive,0.3333333333333333,Positive,0.7506,NEGATIVE,0.9895312786102295
+5,Highly recommended,"It is the best compact smartphone for working professionals. Camera, battery, sound, performance and display all are perfect. Value for money pricing during sale.",Nov 2025,Madhubani District,Positive,0.7999999999999999,Positive,0.8834,POSITIVE,0.9998332262039185
+5,Brilliant,I got my iphone 16 secure in my hands thanks you flipkart to delivered my iphone 16 safe in my hands,Nov 2025,Rewa District,Positive,0.3666666666666667,Positive,0.802,POSITIVE,0.9762862920761108
+5,Wonderful,Good deal for the offer price,Nov 2025,Thiruvananthapuram,Positive,0.7,Positive,0.4404,POSITIVE,0.9998123049736023
+5,Awesome,Nice phone at this lowest price,Nov 2025,Pune,Positive,0.6,Negative,-0.0516,NEGATIVE,0.9880933165550232
+5,Terrific,Very good product Manish kumar Swami,Dec 2025,Waluj Midc,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9997164607048035
+5,Mind-blowing purchase,"Good product. It would be better, If it has the 120hz display.",Nov 2025,,Positive,0.6,Positive,0.7003,POSITIVE,0.9964397549629211
+5,Perfect product!,Nice my phone wow quality,Nov 2025,Modinagar,Positive,0.35,Positive,0.765,POSITIVE,0.9997120499610901
+5,Highly recommended,Good performance and awesome camera quality,Nov 2025,Noida,Positive,0.85,Positive,0.7906,POSITIVE,0.9998835325241089
+5,Brilliant,Overall good.but after the ios 26 update better drain fast. prodip Biswas,Dec 2025,Barasat,Positive,0.2333333333333333,Positive,0.4404,NEGATIVE,0.99687659740448
+5,Highly recommended,"I love it, thanks",Nov 2025,Bengaluru,Positive,0.35,Positive,0.7964,POSITIVE,0.9998655319213867
+4,Value-for-money,One rating cut down for the delivery boy because the behaviour is not good and the product is awesome,Nov 2025,Faridabad,Positive,0.16481481481481483,Positive,0.1516,POSITIVE,0.9869801998138428
+5,Worth every penny,Best service original phone You can buy,Nov 2025,Faridabad Division,Positive,0.6875,Positive,0.7579,POSITIVE,0.9979609251022339
+3,Does the job,Camera is top class everything else is not that great.,Nov 2025,Fatehabad,Positive,0.65,Negative,-0.3599,NEGATIVE,0.9994800686836243
+5,Excellent,Nice one I am enjoying my dream Khushbu pandit,Nov 2025,Faridabad,Positive,0.55,Positive,0.802,POSITIVE,0.9998642206192017
+5,Terrific,Wonderful awesome perfect,Nov 2025,Betia,Positive,1.0,Positive,0.91,POSITIVE,0.9998760223388672
+5,Classy product,Excellent product as I buy in sell.,Nov 2025,Ahmedabad,Positive,1.0,Positive,0.5719,POSITIVE,0.9998670816421509
+5,Perfect product!,Great phone at s,Nov 2025,Dungarpur,Positive,0.8,Positive,0.6249,POSITIVE,0.9995219707489014
+5,Highly recommended,Good but battery is less backup than iPhone 14,Nov 2025,Mughalsarai,Positive,0.26666666666666666,Positive,0.2382,POSITIVE,0.7502636909484863
+2,Not good,"I am a new user of apple and while starting, I have received the option to enter the passcode to unlock it instead of creating a new one. Terrible experience. I was very excited but now the phone is locked for 1 hour after multiple failed attempts. apple Suggest something and please solve this issue for me.",Nov 2025,Kangra District,Negative,-0.10568181818181818,Neutral,0.0249,NEGATIVE,0.9964518547058105
+4,Good quality product,"Everything good except the battery, it drains too fast",Nov 2025,New Delhi,Positive,0.44999999999999996,Positive,0.4404,NEGATIVE,0.9952424764633179
+4,Good quality product,Nice pr Ratan das,Nov 2025,Baksa District,Positive,0.6,Positive,0.4215,POSITIVE,0.9995800852775574
+5,Classy product,Best phone ever this is the first time I ordered a phone u,Nov 2025,Bharuch,Positive,0.625,Positive,0.6369,POSITIVE,0.9970421195030212
+5,Brilliant,Overall a good purchase yatendra meena,Nov 2025,Alwar,Positive,0.35,Positive,0.4404,POSITIVE,0.999855637550354
+5,Classy product,Awesome. My best experience with this.,Nov 2025,Siliguri,Positive,1.0,Positive,0.8519,POSITIVE,0.999862551689148
+5,Great product,Nice awesome mobile,Nov 2025,Narnaund,Positive,0.8,Positive,0.7845,POSITIVE,0.9998693466186523
+5,Simply awesome,Love this phone But the only problem is the battery and the 60HZ display Kumar,Nov 2025,Kangra District,Positive,0.25,Negative,-0.2382,NEGATIVE,0.9887312054634094
+1,Useless product,Mobile not charging,Nov 2025,Panipat,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9777765274047852
+5,Excellent,All over good and iPhone is trusted,Nov 2025,Jalandhar,Positive,0.7,Positive,0.7184,POSITIVE,0.9914532899856567
+5,Mind-blowing purchase,Really iphone all feature best,Aug 2025,Raghudebbati,Positive,0.6,Positive,0.6369,POSITIVE,0.9993128776550293
+5,Just wow!,Love the product so far. Worth spending nothing. Rahul shukla,Nov 2025,Ludhiana,Positive,0.3,Positive,0.749,POSITIVE,0.9978739023208618
+4,Nice product,Adapter must be included,Oct 2025,Nagpur,Neutral,0.0,Neutral,0.0,POSITIVE,0.7889435291290283
+5,Best in the market!,Awesome delivery and packaging in awesome price,Nov 2025,Katihar,Positive,1.0,Positive,0.8481,POSITIVE,0.9998797178268433
+5,Terrific,"All features are outstanding easy to carry,durable battery and volume quality is so good at last I recommended you all to must buy it at ones",Nov 2025,Ghaziabad,Positive,0.4083333333333333,Positive,0.9089,POSITIVE,0.9998512268066406
+5,Terrific purchase,It was very fast delivery and very nice service,Nov 2025,Vadodara,Positive,0.52,Positive,0.4754,POSITIVE,0.9998399019241333
+5,Fabulous!,"Excellent product received, Thank you Flipkart.",Nov 2025,Thank,Positive,1.0,Positive,0.7351,POSITIVE,0.999866247177124
+5,Best in the market!,Received the product as shown.,Nov 2025,Nagaon,Neutral,0.0,Neutral,0.0,POSITIVE,0.994778037071228
+5,Classy product,My 1st iphone its really ama,Nov 2025,Moradabad,Positive,0.2,Neutral,0.0,POSITIVE,0.928806722164154
+5,Simply awesome,A good phone in the price offered at sale,Nov 2025,Gautam Buddha Nagar,Positive,0.7,Positive,0.4404,POSITIVE,0.999345600605011
+5,Awesome,Worth it for money.,Nov 2025,Bhawanipatna,Positive,0.3,Positive,0.2263,POSITIVE,0.9996746778488159
+5,Must buy!,M.S Gst.no 07BURPA1919C1ZW,Nov 2025,New Delhi,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9968950748443604
+5,Highly recommended,Product. I 2 . . ..,Nov 2025,Cachar District,Neutral,0.0,Neutral,0.0,POSITIVE,0.7650905251502991
+5,Awesome,Amazing performance in all aspects only face id doesnt work sometimes. rajan singla,Nov 2025,Ahmedabad,Positive,0.30000000000000004,Positive,0.5859,POSITIVE,0.9989721775054932
+5,Great product,Its best in apple series phones,Nov 2025,New Delhi,Positive,1.0,Positive,0.6369,POSITIVE,0.9995738863945007
+5,Wonderful,All excellent work,Nov 2025,Agra Division,Positive,1.0,Positive,0.5719,POSITIVE,0.9998708963394165
+4,Good choice,No words for this product,Nov 2025,New Delhi,Neutral,0.0,Negative,-0.296,NEGATIVE,0.9996278285980225
+4,Delightful,Other than display refresh rate evrything is top-notch. moushamraj biswal,Nov 2025,Subarnapur District,Positive,0.4375,Neutral,0.0,POSITIVE,0.9955477714538574
+5,Wonderful,Very good performance arun sharma,Nov 2025,Samba District,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.999849796295166
+5,Great product,syed mudassir hussain,Nov 2025,Hyderabad,Neutral,0.0,Neutral,0.0,POSITIVE,0.9037273526191711
+5,Classy product,Very valuable Reasonable price,Nov 2025,Bangalore Division,Positive,0.2,Positive,0.5256,POSITIVE,0.9996978044509888
+5,Must buy!,with 16 Chandu FiSh,Dec 2025,Gurugram,Neutral,0.0,Neutral,0.0,NEGATIVE,0.7895071506500244
+5,Awesome,The is best and looks also but battery back is not good for high useage Sadiq ali,Nov 2025,New Delhi,Positive,0.2025,Negative,-0.1303,NEGATIVE,0.9988429546356201
+5,Great product,Great product Shubham,Nov 2025,Mandi,Positive,0.8,Positive,0.6249,POSITIVE,0.9996926784515381
+5,Worth every penny,Very good nice cemera is good mobaile,Nov 2025,Uttar Dinajpur District,Positive,0.7366666666666667,Positive,0.8578,POSITIVE,0.9997575879096985
+5,Classy product,Good phone for official purpose,Nov 2025,Ramgarh Cantonment Civil Township,Positive,0.7,Positive,0.4404,POSITIVE,0.9976964592933655
+5,Great product,Nice product thank you,Nov 2025,Ahmedabad,Positive,0.6,Positive,0.6486,POSITIVE,0.9998670816421509
+5,Great product,Good item and best product,Nov 2025,Upper Assam Division,Positive,0.85,Positive,0.7964,POSITIVE,0.9998651742935181
+5,Brilliant,Good performance Vineeth vinu,Nov 2025,Kozhenchery,Positive,0.7,Positive,0.4404,POSITIVE,0.9998466968536377
+5,Best in the market!,Good product worth for,Nov 2025,Coimbatore,Positive,0.5,Positive,0.5859,POSITIVE,0.9998654127120972
+5,Perfect product!,I am happy with product,Nov 2025,Bengaluru,Positive,0.8,Positive,0.5719,POSITIVE,0.9998822212219238
+5,Must buy!,"i bought first time of iphone. Before i m using androide , but yet my experience has been upgraded. I am totally satisfied . parasram Jatav",Nov 2025,Bhopal,Positive,0.375,Positive,0.6297,POSITIVE,0.9992234706878662
+5,Best in the market!,Best price and best phone,Nov 2025,Tirhut Division,Positive,1.0,Positive,0.8555,POSITIVE,0.9997076392173767
+5,Great product,Its amazing Dhananjay singh,Nov 2025,Bhopal,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998478889465332
+5,Terrific purchase,This is my first purchase of an apple product and i am fully satisfied with this iphone 16 brilliant smart phone apple is apple,Nov 2025,Jind,Positive,0.4660714285714285,Positive,0.8622,POSITIVE,0.9995279312133789
+5,Great product,Everything perfect..,Nov 2025,Bhubaneshwar,Positive,1.0,Neutral,0.0,POSITIVE,0.9998736381530762
+5,Terrific,iPhone 16 is a good built and feature Khatana,Nov 2025,Bawal,Positive,0.7,Positive,0.4404,POSITIVE,0.9997537732124329
+5,Highly recommended,My dream phone awesome,Dec 2025,Tawang District,Positive,1.0,Positive,0.7269,POSITIVE,0.9997556805610657
+5,Perfect product!,Iphone is good phone and me always only use i,Nov 2025,Ooty,Positive,0.35,Positive,0.4404,POSITIVE,0.9928973913192749
+5,Fabulous!,Great for phots and videos but you have to change the settings and turn off,Dec 2025,Southern Division,Positive,0.8,Positive,0.3716,NEGATIVE,0.9981092214584351
+5,Worth every penny,Good phone Sachin dubey,Nov 2025,Gurugram,Positive,0.7,Positive,0.4404,POSITIVE,0.9974800944328308
+5,Fabulous!,Amazing aryan dhiman,Nov 2025,Dehradun,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998130202293396
+5,Must buy!,iPhone is always best,Jan 2026,Secunderabad,Positive,1.0,Positive,0.6369,POSITIVE,0.9993057250976562
+5,Awesome,"First time switching to Ios, never going back lol!",Nov 2025,Mohali,Positive,0.4166666666666667,Negative,-0.3867,NEGATIVE,0.6475685238838196
+5,Simply awesome,Awesome but del khan,Nov 2025,North Twenty Four Parganas District,Positive,1.0,Positive,0.3716,POSITIVE,0.9996823072433472
+5,Just wow!,Best iphone ever,Nov 2025,Ahmedabad,Positive,1.0,Positive,0.6369,POSITIVE,0.9997459053993225
+5,Brilliant,Sangeeta rani Rani,Nov 2025,New Delhi,Neutral,0.0,Neutral,0.0,POSITIVE,0.9835114479064941
+5,Brilliant,Descent phone at higher price,Aug 2025,Aurangabad,Positive,0.25,Neutral,0.0,NEGATIVE,0.8852909207344055
+5,Highly recommended,Nothing to say about iPhone is the best.,Nov 2025,New Delhi,Positive,1.0,Positive,0.6369,POSITIVE,0.9996490478515625
+4,Good choice,also good desine is so amazing,Nov 2025,Kanpur Division,Positive,0.65,Positive,0.8301,POSITIVE,0.9998856782913208
+4,Good choice,This is the best phone at this price,Nov 2025,Konch,Positive,1.0,Positive,0.6369,POSITIVE,0.9992783665657043
+5,Classy product,Very very good and nice product,Nov 2025,Ludhiana,Positive,0.7549999999999999,Positive,0.7604,POSITIVE,0.999881386756897
+4,Good quality product,Everything is excellent apart . anas qadeer,Nov 2025,Bara Banki District,Positive,1.0,Positive,0.5719,POSITIVE,0.9998738765716553
+5,Awesome,camera performance super,Nov 2025,Shimoga,Positive,0.3333333333333333,Positive,0.5994,POSITIVE,0.9990231990814209
+5,Just wow!,"The night mode of the camera is too good, compared to other models, and the phone is absolutely beautiful and is attractive than other colors.",Nov 2025,Hyderabad,Positive,0.41999999999999993,Positive,0.8748,POSITIVE,0.9996877908706665
+5,Must buy!,Good experience Hassan .,Nov 2025,Nuh,Positive,0.7,Positive,0.4404,POSITIVE,0.9998513460159302
+5,Must buy!,Nice product Dr.,Nov 2025,Solapur,Positive,0.6,Positive,0.4215,POSITIVE,0.9997875094413757
+5,Terrific,This is my first apple phone this features in great,Nov 2025,Presidency Division,Positive,0.525,Positive,0.6249,POSITIVE,0.9993565678596497
+5,Worth every penny,This product is so good,Nov 2025,Ludhiana,Positive,0.7,Positive,0.5777,POSITIVE,0.9998724460601807
+5,Worth every penny,Iphone 16 is better mobile but back looking is not good. yanendra singh,Nov 2025,Bharatpur,Positive,0.05000000000000001,Negative,-0.2867,NEGATIVE,0.9992431402206421
+3,Just okay,Battery is not working properly,Nov 2025,Kota,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9997761845588684
+5,Terrific purchase,Amandeep singh Birdy,Nov 2025,Jabalpur,Neutral,0.0,Neutral,0.0,POSITIVE,0.9942869544029236
+4,Worth the money,Good phon Aloknath sadhu Sadhu,Nov 2025,Medinipur Division,Positive,0.7,Positive,0.4404,POSITIVE,0.9995773434638977
+5,Worth every penny,Thise products very amazing,Nov 2025,Sasni,Positive,0.7800000000000001,Positive,0.624,POSITIVE,0.9998773336410522
+5,Terrific purchase,Got at best price,Jan 2026,Belagavi,Positive,1.0,Positive,0.6369,POSITIVE,0.9973810315132141
+5,Best in the market!,"All is good but Flipkart packaging, not good ashwani mannan",Nov 2025,Dehradun,Positive,0.175,Positive,0.7003,NEGATIVE,0.9988429546356201
+5,Highly recommended,"Very nice experience to performance,camera and",Nov 2025,Purba Champaran District,Positive,0.78,Positive,0.4754,POSITIVE,0.9998708963394165
+5,Fabulous!,Best phone for samsung users,Nov 2025,New Delhi,Positive,1.0,Positive,0.6369,POSITIVE,0.9989718198776245
+1,Useless product,Not good product,Nov 2025,Gurugram,Negative,-0.35,Negative,-0.3412,NEGATIVE,0.9997689127922058
+1,Waste of money!,Camera problem And not support flipkart and Apple care,Nov 2025,Sahibzada Ajit Singh Nagar District,Neutral,0.0,Negative,-0.1921,NEGATIVE,0.999692440032959
+5,Simply awesome,Good camera quality,Nov 2025,Jalgaon,Positive,0.7,Positive,0.4404,POSITIVE,0.9998538494110107
+3,Decent product,"Battery is good, camera is good, display is good,design is good but this piece is facing problem multiple time I dont know how it can be malfunctioning in new handset.",Nov 2025,Greater Noida,Positive,0.44727272727272716,Positive,0.0772,NEGATIVE,0.9941239953041077
+4,Nice product,Just loot at the color wowww,Nov 2025,Hyderabad,Neutral,0.0,Neutral,0.0,NEGATIVE,0.9382058382034302
+5,Terrific purchase,i phone 16 is good product but battery is poor,Jan 2026,Gwalior,Positive,0.14999999999999997,Negative,-0.4939,NEGATIVE,0.9960414171218872
+5,Best in the market!,Battery poor and phone superb R.K,Jan 2026,Hyderabad,Positive,0.3,Positive,0.25,NEGATIVE,0.9969016313552856
+5,Perfect product!,Best phone rajesh gour,Nov 2025,Rewa,Positive,1.0,Positive,0.6369,POSITIVE,0.9945520758628845
+4,Good quality product,Product was amazing and genuine completely flawless but behaviour of delivery boy is so rude,Nov 2025,Patiala Division,Positive,0.425,Negative,-0.3824,NEGATIVE,0.9944087862968445
+5,Classy product,Very good madhukar chada,Nov 2025,Hanamkonda,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998340606689453
+4,Nice product,"Good design, camera, performances kumar",Nov 2025,Muzaffarpur,Positive,0.7,Positive,0.4404,POSITIVE,0.9998517036437988
+5,Perfect product!,Best quality best iPhone 16,Nov 2025,Ahmedabad,Positive,1.0,Positive,0.8555,POSITIVE,0.9995379447937012
+5,Worthy ! Better,! little bit Battery concern,Nov 2025,Gadhinglaj,Negative,-0.1875,Neutral,0.0,NEGATIVE,0.9864377975463867
+5,Mind-blowing purchase,recommended to purchase. Buy it guysss,Nov 2025,Silchar,Neutral,0.0,Positive,0.2023,POSITIVE,0.9908618927001953
+5,Brilliant,Best quality nice pics price,Nov 2025,Unnao,Positive,0.8,Positive,0.7906,POSITIVE,0.9996347427368164
+5,Perfect product!,Superb product t deepak reddy,Nov 2025,Raipur,Positive,1.0,Positive,0.6249,POSITIVE,0.9996874332427979
+5,Brilliant,The image quality is outstanding and even in low light area it outperformed any smartphone available. Really liked the shortcut and action button very useful,Nov 2025,New Town,Positive,0.34142857142857147,Positive,0.8476,POSITIVE,0.9997091889381409
+5,Highly recommended,Good in performance camera design and display but should have 4000 mah,Nov 2025,Srinagar,Positive,0.7,Positive,0.2382,NEGATIVE,0.95412677526474
+5,Wonderful,amazing Jagwinder singh,Nov 2025,Jalandhar District,Positive,0.6000000000000001,Positive,0.5859,POSITIVE,0.9998502731323242
+5,Terrific purchase,Superb thanks flipkart,Nov 2025,Hajira,Positive,0.6,Positive,0.7906,POSITIVE,0.9998776912689209
+5,Terrific purchase,Good phone with advance features,Nov 2025,Ghaziabad,Positive,0.7,Positive,0.4404,POSITIVE,0.9995527863502502
+5,Best in the market!,Feel awesome in hand feel and my first iPhone so loving it and the camera took some really good pics,Nov 2025,Kolkata,Positive,0.6375,Positive,0.9476,POSITIVE,0.999832034111023
+5,Super!,Better experience with iPhone 16,Nov 2025,Kollam,Positive,0.5,Positive,0.4404,POSITIVE,0.9731571674346924
+5,Perfect product!,Very good photos .,Nov 2025,Kota Division,Positive,0.9099999999999999,Positive,0.4927,POSITIVE,0.9998750686645508
+5,Terrific,All over next level experience,Nov 2025,Bhiwani,Neutral,0.0,Neutral,0.0,POSITIVE,0.9443132877349854
+5,Must buy!,Good pafomanace good camara,Nov 2025,Raisen,Positive,0.7,Positive,0.7003,POSITIVE,0.9998102784156799
+5,Just wow!,is best and battery backup is improved,Nov 2025,Bikaner,Positive,1.0,Positive,0.8074,POSITIVE,0.9977266192436218
+5,Mind-blowing purchase,Happy with this purchase on,Nov 2025,Pune Division,Positive,0.8,Positive,0.5719,POSITIVE,0.9998657703399658
+5,Super!,Wonderful iphone,Nov 2025,Bhadrak,Positive,1.0,Positive,0.5719,POSITIVE,0.9998785257339478
+5,Best in the market!,A good perfect phone but needs to improve two things fast charging and battery backup Ajay,Nov 2025,Surat,Positive,0.6333333333333333,Positive,0.7992,NEGATIVE,0.9952966570854187
+5,Mind-blowing purchase,performance in every segment,Jan 2026,Mumbai,Neutral,0.0,Neutral,0.0,POSITIVE,0.9994137287139893
+5,Wonderful,Name is enough susheel Chaudhary,Nov 2025,Fatehpur,Neutral,0.0,Neutral,0.0,POSITIVE,0.8011177182197571
+5,Excellent,Finally the mobile was awesome,Nov 2025,Bondapalli,Positive,0.5,Positive,0.6249,POSITIVE,0.9997689127922058
+5,Wonderful,Authentic product and the best phone tho,Nov 2025,Nellore,Positive,0.75,Positive,0.6369,POSITIVE,0.999747097492218
