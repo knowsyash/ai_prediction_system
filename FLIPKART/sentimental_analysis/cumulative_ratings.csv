@@ -1,4 +1,0 @@
-Device,N_reviews,Actual_mean_rating,Actual_mode_rating,Actual_pct_positive,VADER_mean_rating,VADER_pct_positive,BERT_mean_rating,BERT_pct_positive,WC_mean_rating,WC_pct_positive
-iPhone 16,895,4.63,5,91.8,3.937,81.3,4.196,79.2,4.38,75.1
-iPhone 15,4061,4.59,5,91.0,3.876,74.9,4.335,83.3,4.208,65.8
-iQOO Z10,152,4.316,5,86.2,3.475,66.4,3.303,58.6,4.312,75.0

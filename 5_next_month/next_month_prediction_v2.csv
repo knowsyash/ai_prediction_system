@@ -1,0 +1,4 @@
+device,target_month,months_of_history,last_observed_month,last_mean_rating,last_pct_positive,linear_trend_pred,exp_smooth_pred,sentiment_signal_pred,w_linear,w_exp_smooth,w_sentiment,predicted_rating,predicted_pct_positive,ci_lower,ci_upper,sentiment_label,trend_vs_last,delta_vs_last,confidence_score
+iPhone 16,Feb 2026,14,Jan 2026,4.455,87.9,4.53,4.615,4.16,0.4,0.35,0.25,4.467,91.5,2.536,5.0,Positive,-,0.012,87.9
+iPhone 15,Feb 2025,17,Jan 2025,4.633,92.2,4.566,4.618,4.139,0.4,0.35,0.25,4.477,91.7,2.54,5.0,Positive,v,-0.156,87.4
+iQOO Z10,Mar 2026,3,Feb 2026,4.643,92.9,4.606,4.445,4.005,0.3,0.35,0.35,4.339,89.5,2.226,5.0,Positive,v,-0.304,77.9
