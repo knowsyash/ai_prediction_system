@@ -1,0 +1,11 @@
+pandas
+dash
+plotly
+scikit-learn
+numpy
+vaderSentiment
+transformers
+torch
+wordcloud
+dash-core-components
+dash-html-components
