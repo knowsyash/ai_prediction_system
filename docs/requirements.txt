@@ -1,8 +1,0 @@
-requests
-beautifulsoup4
-pandas
-lxml
-matplotlib
-wordcloud
-nlpaug
-tqdm
