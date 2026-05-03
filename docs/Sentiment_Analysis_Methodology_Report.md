@@ -104,7 +104,7 @@ The true value of this comparative study is demonstrated by the concrete perform
 |--------------|----------|----------------|--------|---------------------|
 | **BERT**     | **0.870**| 0.476          | 1.209  | **0.542**           |
 | VADER        | 0.769    | 0.500          | 1.161  | 0.453               |
-| Word Cloud   | 0.712    | **0.509**      | **1.125**| 0.480               |
+| Word Cloud   | 0.712    | **0.509**      | **1.125**| 0.480             |
 
 ### Analysis of Results:
 
