@@ -1,0 +1,7 @@
+# Sentiment Analysis Models (Overview)
+
+Our pipeline relies on three distinct models to analyze customer sentiment. The first is VADER (Valence Aware Dictionary and sEntiment Reasoner), which serves as a fast, rule-based baseline. It relies on a pre-built static dictionary mapping words to sentiment intensity and uses heuristic rules to account for punctuation, capitalization, and basic negation. While computationally efficient and requiring no training, VADER lacks deep contextual understanding and struggles with domain-specific smartphone jargon.
+
+The second model is BERT (Bidirectional Encoder Representations from Transformers), a state-of-the-art neural network developed by Google. It utilizes a self-attention mechanism to read the entire sequence of text bidirectionally, allowing it to grasp the full context, sarcasm, and complex trade-offs in reviews. BERT acts as our gold standard for high accuracy and context understanding, though it is computationally expensive and operates largely as a black box.
+
+Finally, we developed a Word Cloud Proxy as a custom mathematical domain-specific baseline. This method automatically splits reviews into rating brackets to identify terms uniquely associated with positive or negative extremes, enabling highly specific feature extraction. This approach is completely interpretable, as we can easily identify the exact words driving the overall score, even though it oversimplifies complex grammatical structures compared to deep learning methods.
